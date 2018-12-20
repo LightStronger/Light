@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     var arr: Array<String>?
     var arr3: Array<Int>?
+    var arr4: Array<Double>?
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
