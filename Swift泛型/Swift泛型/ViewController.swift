@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     var arr: Array<String>?
+    var arr3: Array<Int>?
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
