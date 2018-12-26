@@ -13,11 +13,9 @@ class ViewController: UIViewController {
     var arr: Array<String>?
     override func viewDidLoad() {
         super.viewDidLoad()
-<<<<<<< HEAD
         // Do any additional setup after loading the view, typically from a nib.
         
         print(UIDevice.current.batteryLevel)
-=======
         
         
         // 泛型代码让你能够根据自定义的需求，编写出适用于任意类型、灵活可重用的函数及h类型。它能让你避免代码的重复，用一种清晰和抽象的方式开表达代码的意图
@@ -254,6 +252,9 @@ class ViewController: UIViewController {
         
 
 
+<<<<<<< HEAD
+>>>>>>> 6397e6c... RXSwift
+=======
 >>>>>>> 6397e6c... RXSwift
     }
     
