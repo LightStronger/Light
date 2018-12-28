@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6555158921D5F664009395C4 /* ObservableViewControllerCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6555158421D5F663009395C4 /* ObservableViewControllerCreate.swift */; };
+		6555158A21D5F664009395C4 /* AnyObserverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6555158621D5F663009395C4 /* AnyObserverViewController.swift */; };
+		6555158B21D5F664009395C4 /* ObservableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6555158821D5F663009395C4 /* ObservableViewController.swift */; };
+		6555158D21D5F680009395C4 /* OrderObservableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6555158C21D5F680009395C4 /* OrderObservableViewController.swift */; };
 		6561769F21D49ED100A3BD9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6561769E21D49ED100A3BD9A /* AppDelegate.swift */; };
 		656176A121D49ED100A3BD9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656176A021D49ED100A3BD9A /* ViewController.swift */; };
 		656176A421D49ED100A3BD9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656176A221D49ED100A3BD9A /* Main.storyboard */; };
@@ -14,7 +18,6 @@
 		656176A921D49ED200A3BD9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656176A721D49ED200A3BD9A /* LaunchScreen.storyboard */; };
 		656176B421D49ED200A3BD9A /* RxSwift__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656176B321D49ED200A3BD9A /* RxSwift__Tests.swift */; };
 		656176BF21D49ED200A3BD9A /* RxSwift__UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656176BE21D49ED200A3BD9A /* RxSwift__UITests.swift */; };
-		656176CE21D4A21100A3BD9A /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656176CD21D4A21100A3BD9A /* MusicViewController.swift */; };
 		71C5D63D44B4DEEC859AC868 /* libPods-RxSwift学习.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F931B83087672EFB787941B1 /* libPods-RxSwift学习.a */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +40,10 @@
 
 /* Begin PBXFileReference section */
 		50199AAD3BC0C1CEDC7666F1 /* Pods-RxSwift学习.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift学习.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift学习/Pods-RxSwift学习.debug.xcconfig"; sourceTree = "<group>"; };
+		6555158421D5F663009395C4 /* ObservableViewControllerCreate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableViewControllerCreate.swift; sourceTree = "<group>"; };
+		6555158621D5F663009395C4 /* AnyObserverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyObserverViewController.swift; sourceTree = "<group>"; };
+		6555158821D5F663009395C4 /* ObservableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableViewController.swift; sourceTree = "<group>"; };
+		6555158C21D5F680009395C4 /* OrderObservableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderObservableViewController.swift; sourceTree = "<group>"; };
 		6561769B21D49ED100A3BD9A /* RxSwift学习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxSwift学习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6561769E21D49ED100A3BD9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		656176A021D49ED100A3BD9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +57,6 @@
 		656176BA21D49ED200A3BD9A /* RxSwift学习UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxSwift学习UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		656176BE21D49ED200A3BD9A /* RxSwift__UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift__UITests.swift; sourceTree = "<group>"; };
 		656176C021D49ED200A3BD9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		656176CD21D4A21100A3BD9A /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
 		A261EE292D381B71A4DA0AC6 /* Pods-RxSwift学习.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift学习.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift学习/Pods-RxSwift学习.release.xcconfig"; sourceTree = "<group>"; };
 		F931B83087672EFB787941B1 /* libPods-RxSwift学习.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RxSwift学习.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -89,6 +95,46 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6555158121D5F663009395C4 /* 2.Observable介绍、创建可观察序列 */ = {
+			isa = PBXGroup;
+			children = (
+				6555158C21D5F680009395C4 /* OrderObservableViewController.swift */,
+			);
+			path = "2.Observable介绍、创建可观察序列";
+			sourceTree = SOURCE_ROOT;
+		};
+		6555158221D5F663009395C4 /* 1.响应式编程与传统式编程的比较样例 */ = {
+			isa = PBXGroup;
+			children = (
+				6555158321D5F663009395C4 /* Controller */,
+			);
+			path = "1.响应式编程与传统式编程的比较样例";
+			sourceTree = SOURCE_ROOT;
+		};
+		6555158321D5F663009395C4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6555158421D5F663009395C4 /* ObservableViewControllerCreate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6555158521D5F663009395C4 /* 3.观察者1： AnyObserver、Binder */ = {
+			isa = PBXGroup;
+			children = (
+				6555158621D5F663009395C4 /* AnyObserverViewController.swift */,
+			);
+			path = "3.观察者1： AnyObserver、Binder";
+			sourceTree = SOURCE_ROOT;
+		};
+		6555158721D5F663009395C4 /* 4.Observable订阅、事件监听、订阅销毁 */ = {
+			isa = PBXGroup;
+			children = (
+				6555158821D5F663009395C4 /* ObservableViewController.swift */,
+			);
+			path = "4.Observable订阅、事件监听、订阅销毁";
+			sourceTree = SOURCE_ROOT;
+		};
 		6561769221D49ED100A3BD9A = {
 			isa = PBXGroup;
 			children = (
@@ -114,7 +160,10 @@
 		6561769D21D49ED100A3BD9A /* RxSwift学习 */ = {
 			isa = PBXGroup;
 			children = (
-				656176CC21D4A1DF00A3BD9A /* 响应式编程与传统式编程的比较样例 */,
+				6555158221D5F663009395C4 /* 1.响应式编程与传统式编程的比较样例 */,
+				6555158121D5F663009395C4 /* 2.Observable介绍、创建可观察序列 */,
+				6555158521D5F663009395C4 /* 3.观察者1： AnyObserver、Binder */,
+				6555158721D5F663009395C4 /* 4.Observable订阅、事件监听、订阅销毁 */,
 				6561769E21D49ED100A3BD9A /* AppDelegate.swift */,
 				656176A021D49ED100A3BD9A /* ViewController.swift */,
 				656176A221D49ED100A3BD9A /* Main.storyboard */,
@@ -142,14 +191,6 @@
 			);
 			path = "RxSwift学习UITests";
 			sourceTree = "<group>";
-		};
-		656176CC21D4A1DF00A3BD9A /* 响应式编程与传统式编程的比较样例 */ = {
-			isa = PBXGroup;
-			children = (
-				656176CD21D4A21100A3BD9A /* MusicViewController.swift */,
-			);
-			path = "响应式编程与传统式编程的比较样例";
-			sourceTree = SOURCE_ROOT;
 		};
 		A059F07B4BE2D64F50B2A7E6 /* Pods */ = {
 			isa = PBXGroup;
@@ -313,8 +354,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				656176CE21D4A21100A3BD9A /* MusicViewController.swift in Sources */,
 				656176A121D49ED100A3BD9A /* ViewController.swift in Sources */,
+				6555158A21D5F664009395C4 /* AnyObserverViewController.swift in Sources */,
+				6555158D21D5F680009395C4 /* OrderObservableViewController.swift in Sources */,
+				6555158921D5F664009395C4 /* ObservableViewControllerCreate.swift in Sources */,
+				6555158B21D5F664009395C4 /* ObservableViewController.swift in Sources */,
 				6561769F21D49ED100A3BD9A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -421,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -476,7 +520,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
