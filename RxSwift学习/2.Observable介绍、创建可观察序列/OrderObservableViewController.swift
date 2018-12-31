@@ -138,14 +138,7 @@ class OrderObservableViewController: UIViewController {
         observable10.subscribe {
             print($0)
         }
-        
         // 打印 next(hange.com) completed
-        
-        // 11.deferred()方法
-        /*
-         (1)该个方法相当于是创建一个Observable工厂，通过传入一个block来执行延迟Observable序列创建的行为，而这个block里就是真正的实例化序列对象的地方
-         (2)下面是一隔简单的演示样例
-         */
         
         // 11 deferred()方法
         /*
@@ -188,6 +181,35 @@ class OrderObservableViewController: UIViewController {
          (2)下面方法让其每 1 秒发送一次，并且是在主线程（MainScheduler）发送。
 
          */
+        let observable12 = Observable<Int>.interval(1, scheduler: MainScheduler.instance)
+        observable12.subscribe { (event) in
+            print(event)
+        }
+        
+        // 打印 next(0) next(1) next(2) next(3) next(4) next(5)
+        
+        // 13 timer()方法
+        /*
+         (1)这个方法有两种用法，一种是创建的Observable序列在经过设定的一段时间后，产生唯一的一个元素
+         */
+        // 5秒钟后发出唯一的一个元素0
+        let observable13 = Observable<Int>.timer(5, scheduler: MainScheduler.instance)
+        observable13.subscribe { (event) in
+            print(event)
+        }
+        // 打印 next(0) completed
+        
+        /*
+         (2)另一种是创建的Observable序列在经过设定的一段时间后，每隔一段时间产生一个元素
+         */
+        // 延时5秒钟后，每隔1秒钟发出一个元素
+        let observable14 = Observable<Int>.timer(5, period: 1, scheduler: MainScheduler.instance)
+        observable14.subscribe { (event) in
+            print(event)
+        }
+        // 打印 next(0) next(1) next(2) next(3) next(4)
+        
+        
         
         
         

@@ -18,6 +18,8 @@
 		656176A921D49ED200A3BD9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656176A721D49ED200A3BD9A /* LaunchScreen.storyboard */; };
 		656176B421D49ED200A3BD9A /* RxSwift__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656176B321D49ED200A3BD9A /* RxSwift__Tests.swift */; };
 		656176BF21D49ED200A3BD9A /* RxSwift__UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656176BE21D49ED200A3BD9A /* RxSwift__UITests.swift */; };
+		6586D80921D9CAA00055A54A /* SelfObservableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6586D80821D9CAA00055A54A /* SelfObservableViewController.swift */; };
+		6586D80C21D9ECE40055A54A /* SubjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6586D80B21D9ECE40055A54A /* SubjectsViewController.swift */; };
 		71C5D63D44B4DEEC859AC868 /* libPods-RxSwift学习.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F931B83087672EFB787941B1 /* libPods-RxSwift学习.a */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +59,8 @@
 		656176BA21D49ED200A3BD9A /* RxSwift学习UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxSwift学习UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		656176BE21D49ED200A3BD9A /* RxSwift__UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift__UITests.swift; sourceTree = "<group>"; };
 		656176C021D49ED200A3BD9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6586D80821D9CAA00055A54A /* SelfObservableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfObservableViewController.swift; sourceTree = "<group>"; };
+		6586D80B21D9ECE40055A54A /* SubjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsViewController.swift; sourceTree = "<group>"; };
 		A261EE292D381B71A4DA0AC6 /* Pods-RxSwift学习.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift学习.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift学习/Pods-RxSwift学习.release.xcconfig"; sourceTree = "<group>"; };
 		F931B83087672EFB787941B1 /* libPods-RxSwift学习.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RxSwift学习.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -119,20 +123,20 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		6555158521D5F663009395C4 /* 3.观察者1： AnyObserver、Binder */ = {
+		6555158521D5F663009395C4 /* 4.观察者1： AnyObserver、Binder */ = {
 			isa = PBXGroup;
 			children = (
 				6555158621D5F663009395C4 /* AnyObserverViewController.swift */,
 			);
-			path = "3.观察者1： AnyObserver、Binder";
+			path = "4.观察者1： AnyObserver、Binder";
 			sourceTree = SOURCE_ROOT;
 		};
-		6555158721D5F663009395C4 /* 4.Observable订阅、事件监听、订阅销毁 */ = {
+		6555158721D5F663009395C4 /* 3.Observable订阅、事件监听、订阅销毁 */ = {
 			isa = PBXGroup;
 			children = (
 				6555158821D5F663009395C4 /* ObservableViewController.swift */,
 			);
-			path = "4.Observable订阅、事件监听、订阅销毁";
+			path = "3.Observable订阅、事件监听、订阅销毁";
 			sourceTree = SOURCE_ROOT;
 		};
 		6561769221D49ED100A3BD9A = {
@@ -160,10 +164,12 @@
 		6561769D21D49ED100A3BD9A /* RxSwift学习 */ = {
 			isa = PBXGroup;
 			children = (
+				6586D80A21D9ECD60055A54A /* 6.Subjects、Variables */,
+				6586D80721D9CA740055A54A /* 5.观察者2： 自定义可绑定属性 */,
 				6555158221D5F663009395C4 /* 1.响应式编程与传统式编程的比较样例 */,
 				6555158121D5F663009395C4 /* 2.Observable介绍、创建可观察序列 */,
-				6555158521D5F663009395C4 /* 3.观察者1： AnyObserver、Binder */,
-				6555158721D5F663009395C4 /* 4.Observable订阅、事件监听、订阅销毁 */,
+				6555158521D5F663009395C4 /* 4.观察者1： AnyObserver、Binder */,
+				6555158721D5F663009395C4 /* 3.Observable订阅、事件监听、订阅销毁 */,
 				6561769E21D49ED100A3BD9A /* AppDelegate.swift */,
 				656176A021D49ED100A3BD9A /* ViewController.swift */,
 				656176A221D49ED100A3BD9A /* Main.storyboard */,
@@ -191,6 +197,22 @@
 			);
 			path = "RxSwift学习UITests";
 			sourceTree = "<group>";
+		};
+		6586D80721D9CA740055A54A /* 5.观察者2： 自定义可绑定属性 */ = {
+			isa = PBXGroup;
+			children = (
+				6586D80821D9CAA00055A54A /* SelfObservableViewController.swift */,
+			);
+			path = "5.观察者2： 自定义可绑定属性";
+			sourceTree = SOURCE_ROOT;
+		};
+		6586D80A21D9ECD60055A54A /* 6.Subjects、Variables */ = {
+			isa = PBXGroup;
+			children = (
+				6586D80B21D9ECE40055A54A /* SubjectsViewController.swift */,
+			);
+			path = "6.Subjects、Variables";
+			sourceTree = SOURCE_ROOT;
 		};
 		A059F07B4BE2D64F50B2A7E6 /* Pods */ = {
 			isa = PBXGroup;
@@ -355,8 +377,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				656176A121D49ED100A3BD9A /* ViewController.swift in Sources */,
+				6586D80C21D9ECE40055A54A /* SubjectsViewController.swift in Sources */,
 				6555158A21D5F664009395C4 /* AnyObserverViewController.swift in Sources */,
 				6555158D21D5F680009395C4 /* OrderObservableViewController.swift in Sources */,
+				6586D80921D9CAA00055A54A /* SelfObservableViewController.swift in Sources */,
 				6555158921D5F664009395C4 /* ObservableViewControllerCreate.swift in Sources */,
 				6555158B21D5F664009395C4 /* ObservableViewController.swift in Sources */,
 				6561769F21D49ED100A3BD9A /* AppDelegate.swift in Sources */,

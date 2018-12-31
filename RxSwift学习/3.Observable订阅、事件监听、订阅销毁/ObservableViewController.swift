@@ -53,6 +53,7 @@ class ObservableViewController: UIViewController {
         }, onDisposed: {
             print("disposed")
         })
+
         // 打印 A B C completed disposed
         
         // (2)subscribe()方法的onNext、onError、OnCompleted和onDisposed这四个回调block、参数都是有默认值的，即它们都是可选的，所以我们也可以只处理onNext而不管其他的情况
