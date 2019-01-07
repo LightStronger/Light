@@ -12,9 +12,6 @@ import RxSwift
 // https://www.hangge.com/blog/cache/detail_1929.html
 class SubjectsViewController: UIViewController {
 
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         /*

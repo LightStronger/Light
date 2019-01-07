@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6534850321DC9E0B00F892B0 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6534850221DC9E0B00F892B0 /* FilterViewController.swift */; };
 		6555158921D5F664009395C4 /* ObservableViewControllerCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6555158421D5F663009395C4 /* ObservableViewControllerCreate.swift */; };
 		6555158A21D5F664009395C4 /* AnyObserverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6555158621D5F663009395C4 /* AnyObserverViewController.swift */; };
 		6555158B21D5F664009395C4 /* ObservableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6555158821D5F663009395C4 /* ObservableViewController.swift */; };
@@ -18,6 +19,9 @@
 		656176A921D49ED200A3BD9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656176A721D49ED200A3BD9A /* LaunchScreen.storyboard */; };
 		656176B421D49ED200A3BD9A /* RxSwift__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656176B321D49ED200A3BD9A /* RxSwift__Tests.swift */; };
 		656176BF21D49ED200A3BD9A /* RxSwift__UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656176BE21D49ED200A3BD9A /* RxSwift__UITests.swift */; };
+		6566192F21E0933F00DED33D /* ConditionalAndBooleanOperatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6566192E21E0933F00DED33D /* ConditionalAndBooleanOperatorsViewController.swift */; };
+		6566193221E0A17000DED33D /* StartWithViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6566193121E0A17000DED33D /* StartWithViewController.swift */; };
+		6566331F21DB0340008BD29C /* BufferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6566331E21DB0340008BD29C /* BufferViewController.swift */; };
 		6586D80921D9CAA00055A54A /* SelfObservableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6586D80821D9CAA00055A54A /* SelfObservableViewController.swift */; };
 		6586D80C21D9ECE40055A54A /* SubjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6586D80B21D9ECE40055A54A /* SubjectsViewController.swift */; };
 		71C5D63D44B4DEEC859AC868 /* libPods-RxSwift学习.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F931B83087672EFB787941B1 /* libPods-RxSwift学习.a */; };
@@ -42,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		50199AAD3BC0C1CEDC7666F1 /* Pods-RxSwift学习.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift学习.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift学习/Pods-RxSwift学习.debug.xcconfig"; sourceTree = "<group>"; };
+		6534850221DC9E0B00F892B0 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
 		6555158421D5F663009395C4 /* ObservableViewControllerCreate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableViewControllerCreate.swift; sourceTree = "<group>"; };
 		6555158621D5F663009395C4 /* AnyObserverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyObserverViewController.swift; sourceTree = "<group>"; };
 		6555158821D5F663009395C4 /* ObservableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +64,9 @@
 		656176BA21D49ED200A3BD9A /* RxSwift学习UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxSwift学习UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		656176BE21D49ED200A3BD9A /* RxSwift__UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift__UITests.swift; sourceTree = "<group>"; };
 		656176C021D49ED200A3BD9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6566192E21E0933F00DED33D /* ConditionalAndBooleanOperatorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalAndBooleanOperatorsViewController.swift; sourceTree = "<group>"; };
+		6566193121E0A17000DED33D /* StartWithViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartWithViewController.swift; sourceTree = "<group>"; };
+		6566331E21DB0340008BD29C /* BufferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BufferViewController.swift; sourceTree = "<group>"; };
 		6586D80821D9CAA00055A54A /* SelfObservableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfObservableViewController.swift; sourceTree = "<group>"; };
 		6586D80B21D9ECE40055A54A /* SubjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsViewController.swift; sourceTree = "<group>"; };
 		A261EE292D381B71A4DA0AC6 /* Pods-RxSwift学习.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift学习.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift学习/Pods-RxSwift学习.release.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +106,14 @@
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
+		};
+		6534850121DC9DFF00F892B0 /* 8.过滤操作符：filter、take、skip等 */ = {
+			isa = PBXGroup;
+			children = (
+				6534850221DC9E0B00F892B0 /* FilterViewController.swift */,
+			);
+			path = "8.过滤操作符：filter、take、skip等";
+			sourceTree = SOURCE_ROOT;
 		};
 		6555158121D5F663009395C4 /* 2.Observable介绍、创建可观察序列 */ = {
 			isa = PBXGroup;
@@ -164,6 +180,10 @@
 		6561769D21D49ED100A3BD9A /* RxSwift学习 */ = {
 			isa = PBXGroup;
 			children = (
+				6566193021E0A15800DED33D /* 10.结合操作符：startWith、merge、zip等 */,
+				6566192D21E0932700DED33D /* 9.条件和布尔操作符（Conditional and Boolean Operators） */,
+				6534850121DC9DFF00F892B0 /* 8.过滤操作符：filter、take、skip等 */,
+				6566331D21DB032D008BD29C /* 7.变换操作符：buffer、map、flatMap、scan等 */,
 				6586D80A21D9ECD60055A54A /* 6.Subjects、Variables */,
 				6586D80721D9CA740055A54A /* 5.观察者2： 自定义可绑定属性 */,
 				6555158221D5F663009395C4 /* 1.响应式编程与传统式编程的比较样例 */,
@@ -197,6 +217,30 @@
 			);
 			path = "RxSwift学习UITests";
 			sourceTree = "<group>";
+		};
+		6566192D21E0932700DED33D /* 9.条件和布尔操作符（Conditional and Boolean Operators） */ = {
+			isa = PBXGroup;
+			children = (
+				6566192E21E0933F00DED33D /* ConditionalAndBooleanOperatorsViewController.swift */,
+			);
+			path = "9.条件和布尔操作符（Conditional and Boolean Operators）";
+			sourceTree = SOURCE_ROOT;
+		};
+		6566193021E0A15800DED33D /* 10.结合操作符：startWith、merge、zip等 */ = {
+			isa = PBXGroup;
+			children = (
+				6566193121E0A17000DED33D /* StartWithViewController.swift */,
+			);
+			path = "10.结合操作符：startWith、merge、zip等";
+			sourceTree = SOURCE_ROOT;
+		};
+		6566331D21DB032D008BD29C /* 7.变换操作符：buffer、map、flatMap、scan等 */ = {
+			isa = PBXGroup;
+			children = (
+				6566331E21DB0340008BD29C /* BufferViewController.swift */,
+			);
+			path = "7.变换操作符：buffer、map、flatMap、scan等";
+			sourceTree = SOURCE_ROOT;
 		};
 		6586D80721D9CA740055A54A /* 5.观察者2： 自定义可绑定属性 */ = {
 			isa = PBXGroup;
@@ -377,11 +421,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				656176A121D49ED100A3BD9A /* ViewController.swift in Sources */,
+				6566193221E0A17000DED33D /* StartWithViewController.swift in Sources */,
 				6586D80C21D9ECE40055A54A /* SubjectsViewController.swift in Sources */,
 				6555158A21D5F664009395C4 /* AnyObserverViewController.swift in Sources */,
 				6555158D21D5F680009395C4 /* OrderObservableViewController.swift in Sources */,
+				6534850321DC9E0B00F892B0 /* FilterViewController.swift in Sources */,
+				6566192F21E0933F00DED33D /* ConditionalAndBooleanOperatorsViewController.swift in Sources */,
 				6586D80921D9CAA00055A54A /* SelfObservableViewController.swift in Sources */,
 				6555158921D5F664009395C4 /* ObservableViewControllerCreate.swift in Sources */,
+				6566331F21DB0340008BD29C /* BufferViewController.swift in Sources */,
 				6555158B21D5F664009395C4 /* ObservableViewController.swift in Sources */,
 				6561769F21D49ED100A3BD9A /* AppDelegate.swift in Sources */,
 			);
