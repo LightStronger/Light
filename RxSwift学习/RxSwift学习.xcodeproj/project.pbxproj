@@ -19,6 +19,7 @@
 		656176A921D49ED200A3BD9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656176A721D49ED200A3BD9A /* LaunchScreen.storyboard */; };
 		656176B421D49ED200A3BD9A /* RxSwift__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656176B321D49ED200A3BD9A /* RxSwift__Tests.swift */; };
 		656176BF21D49ED200A3BD9A /* RxSwift__UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656176BE21D49ED200A3BD9A /* RxSwift__UITests.swift */; };
+		6564637821E496BE00C1AD31 /* MaterializeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6564637721E496BE00C1AD31 /* MaterializeViewController.swift */; };
 		6566192F21E0933F00DED33D /* ConditionalAndBooleanOperatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6566192E21E0933F00DED33D /* ConditionalAndBooleanOperatorsViewController.swift */; };
 		6566193221E0A17000DED33D /* StartWithViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6566193121E0A17000DED33D /* StartWithViewController.swift */; };
 		6566331F21DB0340008BD29C /* BufferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6566331E21DB0340008BD29C /* BufferViewController.swift */; };
@@ -66,6 +67,7 @@
 		656176BA21D49ED200A3BD9A /* RxSwift学习UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxSwift学习UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		656176BE21D49ED200A3BD9A /* RxSwift__UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift__UITests.swift; sourceTree = "<group>"; };
 		656176C021D49ED200A3BD9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6564637721E496BE00C1AD31 /* MaterializeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterializeViewController.swift; sourceTree = "<group>"; };
 		6566192E21E0933F00DED33D /* ConditionalAndBooleanOperatorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalAndBooleanOperatorsViewController.swift; sourceTree = "<group>"; };
 		6566193121E0A17000DED33D /* StartWithViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartWithViewController.swift; sourceTree = "<group>"; };
 		6566331E21DB0340008BD29C /* BufferViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BufferViewController.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 		6561769D21D49ED100A3BD9A /* RxSwift学习 */ = {
 			isa = PBXGroup;
 			children = (
+				6564637621E496A900C1AD31 /* 13.其他操作符：delay、materialize、timeout等 */,
 				65B2DD8B21E35911002C5177 /* 12.连接操作符：connect、publish、replay、multicast */,
 				65B2DD8821E34EFC002C5177 /* 11.算数&聚合操作符：toArray、reduce、concat */,
 				6566193021E0A15800DED33D /* 10.结合操作符：startWith、merge、zip等 */,
@@ -223,6 +226,14 @@
 			);
 			path = "RxSwift学习UITests";
 			sourceTree = "<group>";
+		};
+		6564637621E496A900C1AD31 /* 13.其他操作符：delay、materialize、timeout等 */ = {
+			isa = PBXGroup;
+			children = (
+				6564637721E496BE00C1AD31 /* MaterializeViewController.swift */,
+			);
+			path = "13.其他操作符：delay、materialize、timeout等";
+			sourceTree = SOURCE_ROOT;
 		};
 		6566192D21E0932700DED33D /* 9.条件和布尔操作符（Conditional and Boolean Operators） */ = {
 			isa = PBXGroup;
@@ -446,6 +457,7 @@
 				6566193221E0A17000DED33D /* StartWithViewController.swift in Sources */,
 				6586D80C21D9ECE40055A54A /* SubjectsViewController.swift in Sources */,
 				6555158A21D5F664009395C4 /* AnyObserverViewController.swift in Sources */,
+				6564637821E496BE00C1AD31 /* MaterializeViewController.swift in Sources */,
 				6555158D21D5F680009395C4 /* OrderObservableViewController.swift in Sources */,
 				65B2DD8A21E34F0A002C5177 /* ToArrayViewController.swift in Sources */,
 				6534850321DC9E0B00F892B0 /* FilterViewController.swift in Sources */,
