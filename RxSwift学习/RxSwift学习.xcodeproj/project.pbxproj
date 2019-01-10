@@ -19,6 +19,8 @@
 		656176A921D49ED200A3BD9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656176A721D49ED200A3BD9A /* LaunchScreen.storyboard */; };
 		656176B421D49ED200A3BD9A /* RxSwift__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656176B321D49ED200A3BD9A /* RxSwift__Tests.swift */; };
 		656176BF21D49ED200A3BD9A /* RxSwift__UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656176BE21D49ED200A3BD9A /* RxSwift__UITests.swift */; };
+		6561F38821E7378400551ABB /* DriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6561F38721E7378400551ABB /* DriverViewController.swift */; };
+		6561F38B21E74C8D00551ABB /* ControlPropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6561F38A21E74C8D00551ABB /* ControlPropertyViewController.swift */; };
 		6564637821E496BE00C1AD31 /* MaterializeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6564637721E496BE00C1AD31 /* MaterializeViewController.swift */; };
 		6566192F21E0933F00DED33D /* ConditionalAndBooleanOperatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6566192E21E0933F00DED33D /* ConditionalAndBooleanOperatorsViewController.swift */; };
 		6566193221E0A17000DED33D /* StartWithViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6566193121E0A17000DED33D /* StartWithViewController.swift */; };
@@ -70,6 +72,8 @@
 		656176BA21D49ED200A3BD9A /* RxSwift学习UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RxSwift学习UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		656176BE21D49ED200A3BD9A /* RxSwift__UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxSwift__UITests.swift; sourceTree = "<group>"; };
 		656176C021D49ED200A3BD9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6561F38721E7378400551ABB /* DriverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverViewController.swift; sourceTree = "<group>"; };
+		6561F38A21E74C8D00551ABB /* ControlPropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlPropertyViewController.swift; sourceTree = "<group>"; };
 		6564637721E496BE00C1AD31 /* MaterializeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaterializeViewController.swift; sourceTree = "<group>"; };
 		6566192E21E0933F00DED33D /* ConditionalAndBooleanOperatorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalAndBooleanOperatorsViewController.swift; sourceTree = "<group>"; };
 		6566193121E0A17000DED33D /* StartWithViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartWithViewController.swift; sourceTree = "<group>"; };
@@ -192,6 +196,8 @@
 		6561769D21D49ED100A3BD9A /* RxSwift学习 */ = {
 			isa = PBXGroup;
 			children = (
+				6561F38921E74C7D00551ABB /* 18.特征序列3：ControlProperty、 ControlEvent */,
+				6561F38621E7377800551ABB /* 17.特征序列2：Driver */,
 				656AB41021E5CBA900C81F89 /* 16.特征序列1：Single、Completable、Maybe */,
 				656AB40D21E5C4D000C81F89 /* 15.调试操作 */,
 				656AB40A21E5A5FA00C81F89 /* 14.错误处理 */,
@@ -235,6 +241,22 @@
 			);
 			path = "RxSwift学习UITests";
 			sourceTree = "<group>";
+		};
+		6561F38621E7377800551ABB /* 17.特征序列2：Driver */ = {
+			isa = PBXGroup;
+			children = (
+				6561F38721E7378400551ABB /* DriverViewController.swift */,
+			);
+			path = "17.特征序列2：Driver";
+			sourceTree = SOURCE_ROOT;
+		};
+		6561F38921E74C7D00551ABB /* 18.特征序列3：ControlProperty、 ControlEvent */ = {
+			isa = PBXGroup;
+			children = (
+				6561F38A21E74C8D00551ABB /* ControlPropertyViewController.swift */,
+			);
+			path = "18.特征序列3：ControlProperty、 ControlEvent";
+			sourceTree = SOURCE_ROOT;
 		};
 		6564637621E496A900C1AD31 /* 13.其他操作符：delay、materialize、timeout等 */ = {
 			isa = PBXGroup;
@@ -504,6 +526,8 @@
 				656AB40F21E5C4E000C81F89 /* DebugViewController.swift in Sources */,
 				6555158B21D5F664009395C4 /* ObservableViewController.swift in Sources */,
 				6561769F21D49ED100A3BD9A /* AppDelegate.swift in Sources */,
+				6561F38821E7378400551ABB /* DriverViewController.swift in Sources */,
+				6561F38B21E74C8D00551ABB /* ControlPropertyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

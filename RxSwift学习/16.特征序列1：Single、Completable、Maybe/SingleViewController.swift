@@ -78,6 +78,7 @@ class SingleViewController: UIViewController {
             })
             .disposed(by: disposeBag)
         
+        
         /*
          5、asSingle()
          (1)我们可以调用Observable序列.asSIngle()方法，将它转换为Single
@@ -110,8 +111,94 @@ class SingleViewController: UIViewController {
                  case completed
          }
          4、使用样例
+         (1)创建Completable和创建Observable非常相似。下面代码我们使用Completable来模拟一个数据缓存本地的操作
+         cacheLocally
+         (2)接着我们可以使用如下方式使用这个COmpletable
+         
          */
         
+        cacheLocally()
+           .subscribe { completable in
+               switch completable {
+                    case .completed:
+                        print("保存成功!")
+                    case .error(let error):
+                        print("保存失败: \(error.localizedDescription)")
+                    }
+                }
+            .disposed(by: disposeBag)
+        
+        // (3) 也可以使用subscribe(onCOmpleted:onError:)这种方式
+        cacheLocally()
+            .subscribe(onCompleted: {
+                print("保存成功！")
+            }) { (error) in
+                print("保存失败：\(error.localizedDescription)")
+        }
+        .disposed(by: disposeBag)
+        
+        /*
+         三、Maybe
+         1、基本介绍
+         Maybe同样是Observable的另外一个版本。它介于Single和Completable之间，它要么只能发出一个元素，要么产生一个completable事件，要么产生一个error事件
+         .发出一个元素、或者一个completed事件、或者一个error事件
+         .不会共享状态变化
+         2、应用场景
+         Maybe适合那种可能需要发出一个元素，又可能不需要发出的情况
+         (1).success：里包含该 Maybe 的一个元素值
+         (2).completed：用于产生完成事件
+         (3).error：用于产生一个错误
+         public enum MaybeEvent<Element> {
+                 case success(Element)
+                 case error(Swift.Error)
+                 case completed
+         }
+         4，使用样例
+         （1）创建 Maybe 和创建 Observable 同样非常相似：
+         generateString
+         */
+        
+        // （2）接着我们可以使用如下方式使用这个 Maybe：
+        generateString()
+            .subscribe{ maybe in
+                switch maybe {
+                case .success(let element):
+                    print("执行完毕，并获得元素：\(element)")
+                case .completed:
+                    print("执行完毕，且没有任何元素。")
+                case .error(let error):
+                    print("执行失败：\(error.localizedDescription)")
+                }
+        }
+        .disposed(by: disposeBag)
+        
+        // (3)也可以使用 subscribe(onSuccess:onCompleted:onError:) 这种方式：
+        generateString()
+            .subscribe(onSuccess: { (element) in
+                print("执行完毕，并获得元素：\(element)")
+            }, onError: { (error) in
+                print("执行完毕，且没有任何元素。")
+            }, onCompleted: {
+                print("执行完毕，且没有任何元素。")
+            })
+        .disposed(by: disposeBag)
+        
+        /*打印
+         执行完毕，并获得元素：hangge.com
+         */
+        
+        /*
+         5、asMaybe()
+         （1）我们可以通过调用Observable序列的.asMayble()方法，将它转换为Maybe
+         */
+        Observable.of("1")
+        .asMaybe()
+        .subscribe{print($0)}
+        .disposed(by: disposeBag)
+        
+        /*打印
+         success("1")
+         */
     }
 }
 
@@ -147,4 +234,45 @@ enum DataError: Error {
 public enum CompletableEvent {
     case error(Swift.Error)
     case completed
+}
+
+
+// Completable
+// 将数据缓存到本地
+func cacheLocally() -> Completable {
+    return Completable.create { completable in
+   //将数据缓存到本地（这里掠过具体的业务代码，随机成功或失败）
+    let success = (arc4random() % 2 == 0)
+    guard success else {
+      completable(.error(CacheError.failedCaching))
+      return Disposables.create {}
+    }
+    completable(.completed)
+        return Disposables.create {}
+    }
+}
+
+// 与缓存相关的错误类型
+enum CacheError: Error {
+    case failedCaching
+}
+
+// Maybe
+func generateString() -> Maybe<String> {
+    
+    return Maybe<String>.create{ maybe  in
+        
+        // 成功并发出一个元素
+        maybe(.success("hange.com"))
+        
+        // 成功但不发出任何元素
+        maybe(.completed)
+        // 失败
+        // maybe(.error(StringError.failedGenerate))
+        return Disposables.create {}
+    }
+}
+// 与缓存相关的错误类型
+enum StringError: Error {
+    case failedGenerate
 }
