@@ -96,7 +96,7 @@ class AnyObserverViewController: UIViewController {
          1.基本介绍
          (1)相较于AnyObserver的大而全，Binder更专注于特定的场景。Binder主要有以下两个特征：
          不会处理错误事件
-         确保绑定s都是在给定Scheduler上执行(默认MainScheduler)
+         确保绑定都是在给定Scheduler上执行(默认MainScheduler)
          (2)一旦产生错误事件，在调试环境下将执行fataError，在发布环境下将打印错误信息
          
          2、使用样例

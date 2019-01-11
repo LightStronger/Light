@@ -50,13 +50,13 @@ class SelfObservableViewController: UIViewController {
     }
 }
 // (1)这里我们通过对UILabel进行扩展，增加了一个fontSize可绑定属性
-extension UILabel {
-    public var fontSize: Binder<CGFloat> {
-        return Binder(self) { label, fontSize in
-            label.font = UIFont.systemFont(ofSize: fontSize)
-        }
-    }
-}
+//extension UILabel {
+//    public var fontSize: Binder<CGFloat> {
+//        return Binder(self) { label, fontSize in
+//            label.font = UIFont.systemFont(ofSize: fontSize)
+//        }
+//    }
+//}
 
 // 方式二：通过对Reactive类进行扩展
 extension Reactive where Base:UILabel {
