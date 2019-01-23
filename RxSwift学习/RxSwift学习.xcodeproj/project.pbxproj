@@ -33,6 +33,8 @@
 		656AB41221E5CBBB00C81F89 /* SingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656AB41121E5CBBB00C81F89 /* SingleViewController.swift */; };
 		6586D80921D9CAA00055A54A /* SelfObservableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6586D80821D9CAA00055A54A /* SelfObservableViewController.swift */; };
 		6586D80C21D9ECE40055A54A /* SubjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6586D80B21D9ECE40055A54A /* SubjectsViewController.swift */; };
+		659480BE21F56328006EB828 /* ButtonAndBarButtonItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659480BD21F56328006EB828 /* ButtonAndBarButtonItemViewController.swift */; };
+		659480C121F5BD11006EB828 /* UISwitchUISegmentedControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659480C021F5BD11006EB828 /* UISwitchUISegmentedControlViewController.swift */; };
 		65B2DD8A21E34F0A002C5177 /* ToArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B2DD8921E34F0A002C5177 /* ToArrayViewController.swift */; };
 		65B2DD8D21E3592E002C5177 /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B2DD8C21E3592E002C5177 /* ConnectViewController.swift */; };
 		71C5D63D44B4DEEC859AC868 /* libPods-RxSwift学习.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F931B83087672EFB787941B1 /* libPods-RxSwift学习.a */; };
@@ -89,6 +91,8 @@
 		656AB41121E5CBBB00C81F89 /* SingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleViewController.swift; sourceTree = "<group>"; };
 		6586D80821D9CAA00055A54A /* SelfObservableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfObservableViewController.swift; sourceTree = "<group>"; };
 		6586D80B21D9ECE40055A54A /* SubjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsViewController.swift; sourceTree = "<group>"; };
+		659480BD21F56328006EB828 /* ButtonAndBarButtonItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAndBarButtonItemViewController.swift; sourceTree = "<group>"; };
+		659480C021F5BD11006EB828 /* UISwitchUISegmentedControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISwitchUISegmentedControlViewController.swift; sourceTree = "<group>"; };
 		65B2DD8921E34F0A002C5177 /* ToArrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToArrayViewController.swift; sourceTree = "<group>"; };
 		65B2DD8C21E3592E002C5177 /* ConnectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectViewController.swift; sourceTree = "<group>"; };
 		A261EE292D381B71A4DA0AC6 /* Pods-RxSwift学习.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift学习.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift学习/Pods-RxSwift学习.release.xcconfig"; sourceTree = "<group>"; };
@@ -202,6 +206,8 @@
 		6561769D21D49ED100A3BD9A /* RxSwift学习 */ = {
 			isa = PBXGroup;
 			children = (
+				659480BF21F5BCFE006EB828 /* 23.UI控件扩展4：UISwitch、UISegmentedControl */,
+				659480BC21F56302006EB828 /* 22.UI控件扩展3：UIButton、UIBarButtonItem */,
 				6563E8A421E88D3900FD5004 /* 21.UI控件扩展2：UITextField、UITextView */,
 				6563E8A121E872F700FD5004 /* 20.UI控件扩展1：UILabel */,
 				6563E89E21E8638100FD5004 /* 19.调度器、subscribeOn、observeOn */,
@@ -361,6 +367,22 @@
 				6586D80B21D9ECE40055A54A /* SubjectsViewController.swift */,
 			);
 			path = "6.Subjects、Variables";
+			sourceTree = SOURCE_ROOT;
+		};
+		659480BC21F56302006EB828 /* 22.UI控件扩展3：UIButton、UIBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				659480BD21F56328006EB828 /* ButtonAndBarButtonItemViewController.swift */,
+			);
+			path = "22.UI控件扩展3：UIButton、UIBarButtonItem";
+			sourceTree = SOURCE_ROOT;
+		};
+		659480BF21F5BCFE006EB828 /* 23.UI控件扩展4：UISwitch、UISegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				659480C021F5BD11006EB828 /* UISwitchUISegmentedControlViewController.swift */,
+			);
+			path = "23.UI控件扩展4：UISwitch、UISegmentedControl";
 			sourceTree = SOURCE_ROOT;
 		};
 		65B2DD8821E34EFC002C5177 /* 11.算数&聚合操作符：toArray、reduce、concat */ = {
@@ -552,6 +574,7 @@
 				6563E8A021E8639300FD5004 /* SubscribeOnViewController.swift in Sources */,
 				65B2DD8A21E34F0A002C5177 /* ToArrayViewController.swift in Sources */,
 				6534850321DC9E0B00F892B0 /* FilterViewController.swift in Sources */,
+				659480BE21F56328006EB828 /* ButtonAndBarButtonItemViewController.swift in Sources */,
 				65B2DD8D21E3592E002C5177 /* ConnectViewController.swift in Sources */,
 				6566192F21E0933F00DED33D /* ConditionalAndBooleanOperatorsViewController.swift in Sources */,
 				6586D80921D9CAA00055A54A /* SelfObservableViewController.swift in Sources */,
@@ -560,6 +583,7 @@
 				6555158921D5F664009395C4 /* ObservableViewControllerCreate.swift in Sources */,
 				6566331F21DB0340008BD29C /* BufferViewController.swift in Sources */,
 				656AB40F21E5C4E000C81F89 /* DebugViewController.swift in Sources */,
+				659480C121F5BD11006EB828 /* UISwitchUISegmentedControlViewController.swift in Sources */,
 				6555158B21D5F664009395C4 /* ObservableViewController.swift in Sources */,
 				6561769F21D49ED100A3BD9A /* AppDelegate.swift in Sources */,
 				6561F38821E7378400551ABB /* DriverViewController.swift in Sources */,
