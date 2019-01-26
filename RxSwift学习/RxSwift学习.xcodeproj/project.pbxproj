@@ -12,6 +12,14 @@
 		6555158A21D5F664009395C4 /* AnyObserverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6555158621D5F663009395C4 /* AnyObserverViewController.swift */; };
 		6555158B21D5F664009395C4 /* ObservableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6555158821D5F663009395C4 /* ObservableViewController.swift */; };
 		6555158D21D5F680009395C4 /* OrderObservableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6555158C21D5F680009395C4 /* OrderObservableViewController.swift */; };
+		655763D821FBF399001365E5 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655763D721FBF399001365E5 /* Operators.swift */; };
+		655763DC21FBFC17001365E5 /* UIGestureRecognizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655763DB21FBFC17001365E5 /* UIGestureRecognizerViewController.swift */; };
+		655763DF21FC0139001365E5 /* UIDatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655763DE21FC0139001365E5 /* UIDatePickerViewController.swift */; };
+		655763E221FC40E5001365E5 /* UITableViewUserdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655763E121FC40E5001365E5 /* UITableViewUserdViewController.swift */; };
+		655763E521FC4FB3001365E5 /* TabRxDataSourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655763E421FC4FB3001365E5 /* TabRxDataSourcesViewController.swift */; };
+		655B408321FAAEF600BCDFE6 /* UIActivityIndicatorViewAndUIApplicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655B408221FAAEF600BCDFE6 /* UIActivityIndicatorViewAndUIApplicationViewController.swift */; };
+		655B408621FAB3A200BCDFE6 /* UISliderAndUIStepperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655B408521FAB3A200BCDFE6 /* UISliderAndUIStepperViewController.swift */; };
+		655B408921FAB9A800BCDFE6 /* ShaungxiangbangdingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655B408821FAB9A800BCDFE6 /* ShaungxiangbangdingViewController.swift */; };
 		6561769F21D49ED100A3BD9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6561769E21D49ED100A3BD9A /* AppDelegate.swift */; };
 		656176A121D49ED100A3BD9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656176A021D49ED100A3BD9A /* ViewController.swift */; };
 		656176A421D49ED100A3BD9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 656176A221D49ED100A3BD9A /* Main.storyboard */; };
@@ -64,6 +72,14 @@
 		6555158621D5F663009395C4 /* AnyObserverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyObserverViewController.swift; sourceTree = "<group>"; };
 		6555158821D5F663009395C4 /* ObservableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableViewController.swift; sourceTree = "<group>"; };
 		6555158C21D5F680009395C4 /* OrderObservableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderObservableViewController.swift; sourceTree = "<group>"; };
+		655763D721FBF399001365E5 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		655763DB21FBFC17001365E5 /* UIGestureRecognizerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGestureRecognizerViewController.swift; sourceTree = "<group>"; };
+		655763DE21FC0139001365E5 /* UIDatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDatePickerViewController.swift; sourceTree = "<group>"; };
+		655763E121FC40E5001365E5 /* UITableViewUserdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewUserdViewController.swift; sourceTree = "<group>"; };
+		655763E421FC4FB3001365E5 /* TabRxDataSourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabRxDataSourcesViewController.swift; sourceTree = "<group>"; };
+		655B408221FAAEF600BCDFE6 /* UIActivityIndicatorViewAndUIApplicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIActivityIndicatorViewAndUIApplicationViewController.swift; sourceTree = "<group>"; };
+		655B408521FAB3A200BCDFE6 /* UISliderAndUIStepperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISliderAndUIStepperViewController.swift; sourceTree = "<group>"; };
+		655B408821FAB9A800BCDFE6 /* ShaungxiangbangdingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShaungxiangbangdingViewController.swift; sourceTree = "<group>"; };
 		6561769B21D49ED100A3BD9A /* RxSwift学习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxSwift学习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6561769E21D49ED100A3BD9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		656176A021D49ED100A3BD9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -181,6 +197,63 @@
 			path = "3.Observable订阅、事件监听、订阅销毁";
 			sourceTree = SOURCE_ROOT;
 		};
+		655763DA21FBFC03001365E5 /* 27.UI控件扩展7：UIGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				655763DB21FBFC17001365E5 /* UIGestureRecognizerViewController.swift */,
+			);
+			path = "27.UI控件扩展7：UIGestureRecognizer";
+			sourceTree = SOURCE_ROOT;
+		};
+		655763DD21FC0127001365E5 /* 28.UI控件扩展8：UIDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				655763DE21FC0139001365E5 /* UIDatePickerViewController.swift */,
+			);
+			path = "28.UI控件扩展8：UIDatePicker";
+			sourceTree = SOURCE_ROOT;
+		};
+		655763E021FC40CF001365E5 /* 29.UITableView的使用1：基本用法 */ = {
+			isa = PBXGroup;
+			children = (
+				655763E121FC40E5001365E5 /* UITableViewUserdViewController.swift */,
+			);
+			path = "29.UITableView的使用1：基本用法";
+			sourceTree = SOURCE_ROOT;
+		};
+		655763E321FC4F9E001365E5 /* 30.UITableView的使用2：RxDataSources */ = {
+			isa = PBXGroup;
+			children = (
+				655763E421FC4FB3001365E5 /* TabRxDataSourcesViewController.swift */,
+			);
+			path = "30.UITableView的使用2：RxDataSources";
+			sourceTree = SOURCE_ROOT;
+		};
+		655B408121FAAEDB00BCDFE6 /* 24.UIActivityIndicatorView 与 UIApplication */ = {
+			isa = PBXGroup;
+			children = (
+				655B408221FAAEF600BCDFE6 /* UIActivityIndicatorViewAndUIApplicationViewController.swift */,
+			);
+			path = "24.UIActivityIndicatorView 与 UIApplication";
+			sourceTree = SOURCE_ROOT;
+		};
+		655B408421FAB39100BCDFE6 /* 25.UISlider、UIStepper */ = {
+			isa = PBXGroup;
+			children = (
+				655B408521FAB3A200BCDFE6 /* UISliderAndUIStepperViewController.swift */,
+			);
+			path = "25.UISlider、UIStepper";
+			sourceTree = SOURCE_ROOT;
+		};
+		655B408721FAB98000BCDFE6 /* 26.双向绑定：<-> */ = {
+			isa = PBXGroup;
+			children = (
+				655763D721FBF399001365E5 /* Operators.swift */,
+				655B408821FAB9A800BCDFE6 /* ShaungxiangbangdingViewController.swift */,
+			);
+			path = "26.双向绑定：<->";
+			sourceTree = SOURCE_ROOT;
+		};
 		6561769221D49ED100A3BD9A = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +279,13 @@
 		6561769D21D49ED100A3BD9A /* RxSwift学习 */ = {
 			isa = PBXGroup;
 			children = (
+				655763E321FC4F9E001365E5 /* 30.UITableView的使用2：RxDataSources */,
+				655763E021FC40CF001365E5 /* 29.UITableView的使用1：基本用法 */,
+				655763DD21FC0127001365E5 /* 28.UI控件扩展8：UIDatePicker */,
+				655763DA21FBFC03001365E5 /* 27.UI控件扩展7：UIGestureRecognizer */,
+				655B408721FAB98000BCDFE6 /* 26.双向绑定：<-> */,
+				655B408421FAB39100BCDFE6 /* 25.UISlider、UIStepper */,
+				655B408121FAAEDB00BCDFE6 /* 24.UIActivityIndicatorView 与 UIApplication */,
 				659480BF21F5BCFE006EB828 /* 23.UI控件扩展4：UISwitch、UISegmentedControl */,
 				659480BC21F56302006EB828 /* 22.UI控件扩展3：UIButton、UIBarButtonItem */,
 				6563E8A421E88D3900FD5004 /* 21.UI控件扩展2：UITextField、UITextView */,
@@ -565,12 +645,16 @@
 			files = (
 				656176A121D49ED100A3BD9A /* ViewController.swift in Sources */,
 				6566193221E0A17000DED33D /* StartWithViewController.swift in Sources */,
+				655763E221FC40E5001365E5 /* UITableViewUserdViewController.swift in Sources */,
 				656AB40C21E5A60D00C81F89 /* ErrorHandlingOperatorsViewController.swift in Sources */,
 				6563E8A321E8730200FD5004 /* ExtensionLabelViewController.swift in Sources */,
+				655763DC21FBFC17001365E5 /* UIGestureRecognizerViewController.swift in Sources */,
+				655763D821FBF399001365E5 /* Operators.swift in Sources */,
 				6586D80C21D9ECE40055A54A /* SubjectsViewController.swift in Sources */,
 				6555158A21D5F664009395C4 /* AnyObserverViewController.swift in Sources */,
 				6564637821E496BE00C1AD31 /* MaterializeViewController.swift in Sources */,
 				6555158D21D5F680009395C4 /* OrderObservableViewController.swift in Sources */,
+				655763DF21FC0139001365E5 /* UIDatePickerViewController.swift in Sources */,
 				6563E8A021E8639300FD5004 /* SubscribeOnViewController.swift in Sources */,
 				65B2DD8A21E34F0A002C5177 /* ToArrayViewController.swift in Sources */,
 				6534850321DC9E0B00F892B0 /* FilterViewController.swift in Sources */,
@@ -583,8 +667,12 @@
 				6555158921D5F664009395C4 /* ObservableViewControllerCreate.swift in Sources */,
 				6566331F21DB0340008BD29C /* BufferViewController.swift in Sources */,
 				656AB40F21E5C4E000C81F89 /* DebugViewController.swift in Sources */,
+				655B408921FAB9A800BCDFE6 /* ShaungxiangbangdingViewController.swift in Sources */,
+				655B408621FAB3A200BCDFE6 /* UISliderAndUIStepperViewController.swift in Sources */,
 				659480C121F5BD11006EB828 /* UISwitchUISegmentedControlViewController.swift in Sources */,
+				655B408321FAAEF600BCDFE6 /* UIActivityIndicatorViewAndUIApplicationViewController.swift in Sources */,
 				6555158B21D5F664009395C4 /* ObservableViewController.swift in Sources */,
+				655763E521FC4FB3001365E5 /* TabRxDataSourcesViewController.swift in Sources */,
 				6561769F21D49ED100A3BD9A /* AppDelegate.swift in Sources */,
 				6561F38821E7378400551ABB /* DriverViewController.swift in Sources */,
 				6561F38B21E74C8D00551ABB /* ControlPropertyViewController.swift in Sources */,
