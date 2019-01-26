@@ -4,6 +4,6 @@ platform :ios, '9.0'
 target 'RxSwift学习' do 
   pod 'RxSwift'
   pod 'RxCocoa'
-
+  pod 'RxDataSources'
 end
 

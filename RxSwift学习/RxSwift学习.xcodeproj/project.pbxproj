@@ -45,7 +45,7 @@
 		659480C121F5BD11006EB828 /* UISwitchUISegmentedControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659480C021F5BD11006EB828 /* UISwitchUISegmentedControlViewController.swift */; };
 		65B2DD8A21E34F0A002C5177 /* ToArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B2DD8921E34F0A002C5177 /* ToArrayViewController.swift */; };
 		65B2DD8D21E3592E002C5177 /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B2DD8C21E3592E002C5177 /* ConnectViewController.swift */; };
-		71C5D63D44B4DEEC859AC868 /* libPods-RxSwift学习.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F931B83087672EFB787941B1 /* libPods-RxSwift学习.a */; };
+		71C5D63D44B4DEEC859AC868 /* libPods-RxSwift学习.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F931B83087672EFB787941B1 /* libPods-RxSwift学习.a */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
