@@ -131,6 +131,23 @@ class BasicCollectionViewViewController: UIViewController {
             print("失去高亮的单元格的indexPath为：\(indexPath)")
             }).disposed(by: disposeBag)
         
+        /*
+         6、单元格将要显示出来的事件响应
+         */
+        // 单元格将要显示出来的事件响应
+        collectionView.rx.willDisplayCell.subscribe(onNext: { cell,indexPath in
+            print("将要显示单元格indexPath为：\(indexPath)")
+            print("将要显示单元格cell为：\(cell)\n")
+        }).disposed(by: disposeBag)
         
+        /*
+         7、分区头部或尾部将要显示出来的事件响应
+         */
+        // 分区头部、尾部将要显示出来的事件响应
+        collectionView.rx.willDisplaySupplementaryView.subscribe(onNext: {view,kind,indexPath in
+            print("将要显示分区indexPath为：\(indexPath)")
+            print("将要显示的是头部还是尾部：\(kind)")
+            print("将要显示头部或尾部视图：\(view)\n")
+        }).disposed(by: disposeBag)
     }
 }

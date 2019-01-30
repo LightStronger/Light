@@ -52,6 +52,12 @@
 		6586D80C21D9ECE40055A54A /* SubjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6586D80B21D9ECE40055A54A /* SubjectsViewController.swift */; };
 		659480BE21F56328006EB828 /* ButtonAndBarButtonItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659480BD21F56328006EB828 /* ButtonAndBarButtonItemViewController.swift */; };
 		659480C121F5BD11006EB828 /* UISwitchUISegmentedControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659480C021F5BD11006EB828 /* UISwitchUISegmentedControlViewController.swift */; };
+		65B2899D220135C80028DD38 /* UICollectionRxDataSourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B2899C220135C80028DD38 /* UICollectionRxDataSourcesViewController.swift */; };
+		65B2899F220136EC0028DD38 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B2899E220136EC0028DD38 /* MyCollectionViewCell.swift */; };
+		65B289A1220144610028DD38 /* MySectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B289A0220144610028DD38 /* MySectionHeader.swift */; };
+		65B289A4220171E10028DD38 /* UICollectionRefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B289A3220171E10028DD38 /* UICollectionRefreshViewController.swift */; };
+		65B289A722018B930028DD38 /* UICollectionViewStyleEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B289A622018B930028DD38 /* UICollectionViewStyleEditViewController.swift */; };
+		65B289AA22018F730028DD38 /* UIPickerViewBasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B289A922018F730028DD38 /* UIPickerViewBasicViewController.swift */; };
 		65B2DD8A21E34F0A002C5177 /* ToArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B2DD8921E34F0A002C5177 /* ToArrayViewController.swift */; };
 		65B2DD8D21E3592E002C5177 /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B2DD8C21E3592E002C5177 /* ConnectViewController.swift */; };
 		71C5D63D44B4DEEC859AC868 /* libPods-RxSwift学习.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F931B83087672EFB787941B1 /* libPods-RxSwift学习.a */; settings = {ATTRIBUTES = (Required, ); }; };
@@ -127,6 +133,12 @@
 		6586D80B21D9ECE40055A54A /* SubjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsViewController.swift; sourceTree = "<group>"; };
 		659480BD21F56328006EB828 /* ButtonAndBarButtonItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAndBarButtonItemViewController.swift; sourceTree = "<group>"; };
 		659480C021F5BD11006EB828 /* UISwitchUISegmentedControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISwitchUISegmentedControlViewController.swift; sourceTree = "<group>"; };
+		65B2899C220135C80028DD38 /* UICollectionRxDataSourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionRxDataSourcesViewController.swift; sourceTree = "<group>"; };
+		65B2899E220136EC0028DD38 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		65B289A0220144610028DD38 /* MySectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySectionHeader.swift; sourceTree = "<group>"; };
+		65B289A3220171E10028DD38 /* UICollectionRefreshViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionRefreshViewController.swift; sourceTree = "<group>"; };
+		65B289A622018B930028DD38 /* UICollectionViewStyleEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewStyleEditViewController.swift; sourceTree = "<group>"; };
+		65B289A922018F730028DD38 /* UIPickerViewBasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPickerViewBasicViewController.swift; sourceTree = "<group>"; };
 		65B2DD8921E34F0A002C5177 /* ToArrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToArrayViewController.swift; sourceTree = "<group>"; };
 		65B2DD8C21E3592E002C5177 /* ConnectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectViewController.swift; sourceTree = "<group>"; };
 		A261EE292D381B71A4DA0AC6 /* Pods-RxSwift学习.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift学习.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift学习/Pods-RxSwift学习.release.xcconfig"; sourceTree = "<group>"; };
@@ -348,6 +360,10 @@
 		6561769D21D49ED100A3BD9A /* RxSwift学习 */ = {
 			isa = PBXGroup;
 			children = (
+				65B289A822018F5B0028DD38 /* 40.UIPickerView的使用 */,
+				65B289A522018B820028DD38 /* 39.UICollectionView的使用4：样式修改 */,
+				65B289A2220171CD0028DD38 /* 38.UICollectionView的使用3：刷新集合数据 */,
+				65B2899B2201359D0028DD38 /* 37.UICollectionView的使用2：RxDataSources */,
 				655A30CA220051F6007C20F5 /* 36.UICollectionView的使用1：基本用法 */,
 				655A30C522004315007C20F5 /* 35.UITableView的使用7：样式修改 */,
 				655A30B822002C1A007C20F5 /* 34.UITableView的使用6：不同类型的单元格混用 */,
@@ -540,6 +556,40 @@
 			path = "23.UI控件扩展4：UISwitch、UISegmentedControl";
 			sourceTree = SOURCE_ROOT;
 		};
+		65B2899B2201359D0028DD38 /* 37.UICollectionView的使用2：RxDataSources */ = {
+			isa = PBXGroup;
+			children = (
+				65B2899C220135C80028DD38 /* UICollectionRxDataSourcesViewController.swift */,
+				65B2899E220136EC0028DD38 /* MyCollectionViewCell.swift */,
+				65B289A0220144610028DD38 /* MySectionHeader.swift */,
+			);
+			path = "37.UICollectionView的使用2：RxDataSources";
+			sourceTree = SOURCE_ROOT;
+		};
+		65B289A2220171CD0028DD38 /* 38.UICollectionView的使用3：刷新集合数据 */ = {
+			isa = PBXGroup;
+			children = (
+				65B289A3220171E10028DD38 /* UICollectionRefreshViewController.swift */,
+			);
+			path = "38.UICollectionView的使用3：刷新集合数据";
+			sourceTree = SOURCE_ROOT;
+		};
+		65B289A522018B820028DD38 /* 39.UICollectionView的使用4：样式修改 */ = {
+			isa = PBXGroup;
+			children = (
+				65B289A622018B930028DD38 /* UICollectionViewStyleEditViewController.swift */,
+			);
+			path = "39.UICollectionView的使用4：样式修改";
+			sourceTree = SOURCE_ROOT;
+		};
+		65B289A822018F5B0028DD38 /* 40.UIPickerView的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				65B289A922018F730028DD38 /* UIPickerViewBasicViewController.swift */,
+			);
+			path = "40.UIPickerView的使用";
+			sourceTree = SOURCE_ROOT;
+		};
 		65B2DD8821E34EFC002C5177 /* 11.算数&聚合操作符：toArray、reduce、concat */ = {
 			isa = PBXGroup;
 			children = (
@@ -718,13 +768,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65B289A722018B930028DD38 /* UICollectionViewStyleEditViewController.swift in Sources */,
 				656176A121D49ED100A3BD9A /* ViewController.swift in Sources */,
 				6550F66C21FEAFAA00FA1FFB /* UITableViewFiltrationViewController.swift in Sources */,
+				65B289A4220171E10028DD38 /* UICollectionRefreshViewController.swift in Sources */,
+				65B289A1220144610028DD38 /* MySectionHeader.swift in Sources */,
 				6566193221E0A17000DED33D /* StartWithViewController.swift in Sources */,
 				655763E221FC40E5001365E5 /* UITableViewUserdViewController.swift in Sources */,
 				656AB40C21E5A60D00C81F89 /* ErrorHandlingOperatorsViewController.swift in Sources */,
+				65B289AA22018F730028DD38 /* UIPickerViewBasicViewController.swift in Sources */,
 				6563E8A321E8730200FD5004 /* ExtensionLabelViewController.swift in Sources */,
 				655763DC21FBFC17001365E5 /* UIGestureRecognizerViewController.swift in Sources */,
+				65B2899D220135C80028DD38 /* UICollectionRxDataSourcesViewController.swift in Sources */,
 				655A30CE2200528A007C20F5 /* BasicCollectionViewCell.swift in Sources */,
 				655763D821FBF399001365E5 /* Operators.swift in Sources */,
 				655A30BA22002C52007C20F5 /* UITableViewDifferentViewController.swift in Sources */,
@@ -739,6 +794,7 @@
 				65B2DD8A21E34F0A002C5177 /* ToArrayViewController.swift in Sources */,
 				6534850321DC9E0B00F892B0 /* FilterViewController.swift in Sources */,
 				655A30C322003140007C20F5 /* DifferentSwitchTableViewCell.swift in Sources */,
+				65B2899F220136EC0028DD38 /* MyCollectionViewCell.swift in Sources */,
 				659480BE21F56328006EB828 /* ButtonAndBarButtonItemViewController.swift in Sources */,
 				6550F66921FE90D000FA1FFB /* UITableViewRefreshViewController.swift in Sources */,
 				655A30C922004362007C20F5 /* UITableViewExchangeViewController.swift in Sources */,
