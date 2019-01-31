@@ -5,5 +5,7 @@ target 'RxSwift学习' do
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'RxDataSources'
+  pod 'ObjectMapper'
+  pod 'RxAlamofire'
 end
 

@@ -29,6 +29,9 @@
       location = "group:&#x4fee;&#x6539;&#x9ed8;&#x8ba4;&#x7684;&#x6837;&#x5f0f;UIPickerView.png">
    </FileRef>
    <FileRef
+      location = "group:&#x8c46;&#x74e3;&#x6570;&#x636e;&#x8bf7;&#x6c42;.png">
+   </FileRef>
+   <FileRef
       location = "group:RxSwift&#x5b66;&#x4e60;.xcodeproj">
    </FileRef>
    <FileRef

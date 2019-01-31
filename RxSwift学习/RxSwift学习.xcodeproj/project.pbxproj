@@ -48,6 +48,11 @@
 		656AB40C21E5A60D00C81F89 /* ErrorHandlingOperatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656AB40B21E5A60D00C81F89 /* ErrorHandlingOperatorsViewController.swift */; };
 		656AB40F21E5C4E000C81F89 /* DebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656AB40E21E5C4E000C81F89 /* DebugViewController.swift */; };
 		656AB41221E5CBBB00C81F89 /* SingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656AB41121E5CBBB00C81F89 /* SingleViewController.swift */; };
+		656BB87B2202972A000A2F4D /* WeakSelfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BB87A2202972A000A2F4D /* WeakSelfViewController.swift */; };
+		656BB87E22029A95000A2F4D /* URLSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BB87D22029A95000A2F4D /* URLSessionViewController.swift */; };
+		656BB8812202A87C000A2F4D /* ModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BB8802202A87C000A2F4D /* ModelViewController.swift */; };
+		656BB8842202E2E4000A2F4D /* RxAlamofireBasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BB8832202E2E4000A2F4D /* RxAlamofireBasicViewController.swift */; };
+		656BB8872202F05F000A2F4D /* RxAlamofireResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656BB8862202F05F000A2F4D /* RxAlamofireResultViewController.swift */; };
 		6586D80921D9CAA00055A54A /* SelfObservableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6586D80821D9CAA00055A54A /* SelfObservableViewController.swift */; };
 		6586D80C21D9ECE40055A54A /* SubjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6586D80B21D9ECE40055A54A /* SubjectsViewController.swift */; };
 		659480BE21F56328006EB828 /* ButtonAndBarButtonItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 659480BD21F56328006EB828 /* ButtonAndBarButtonItemViewController.swift */; };
@@ -129,6 +134,11 @@
 		656AB40B21E5A60D00C81F89 /* ErrorHandlingOperatorsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandlingOperatorsViewController.swift; sourceTree = "<group>"; };
 		656AB40E21E5C4E000C81F89 /* DebugViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugViewController.swift; sourceTree = "<group>"; };
 		656AB41121E5CBBB00C81F89 /* SingleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleViewController.swift; sourceTree = "<group>"; };
+		656BB87A2202972A000A2F4D /* WeakSelfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakSelfViewController.swift; sourceTree = "<group>"; };
+		656BB87D22029A95000A2F4D /* URLSessionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionViewController.swift; sourceTree = "<group>"; };
+		656BB8802202A87C000A2F4D /* ModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelViewController.swift; sourceTree = "<group>"; };
+		656BB8832202E2E4000A2F4D /* RxAlamofireBasicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxAlamofireBasicViewController.swift; sourceTree = "<group>"; };
+		656BB8862202F05F000A2F4D /* RxAlamofireResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxAlamofireResultViewController.swift; sourceTree = "<group>"; };
 		6586D80821D9CAA00055A54A /* SelfObservableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfObservableViewController.swift; sourceTree = "<group>"; };
 		6586D80B21D9ECE40055A54A /* SubjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectsViewController.swift; sourceTree = "<group>"; };
 		659480BD21F56328006EB828 /* ButtonAndBarButtonItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAndBarButtonItemViewController.swift; sourceTree = "<group>"; };
@@ -360,6 +370,11 @@
 		6561769D21D49ED100A3BD9A /* RxSwift学习 */ = {
 			isa = PBXGroup;
 			children = (
+				656BB8852202F047000A2F4D /* 45.结合RxAlamofire使用2：结果处理、模型转换 */,
+				656BB8822202E2D0000A2F4D /* 44.结合RxAlamofire使用1：数据请求 */,
+				656BB87F2202A863000A2F4D /* 43.URLSession的使用2：结果处理、模型转换 */,
+				656BB87C22029A86000A2F4D /* 42.URLSession的使用1：请求数据 */,
+				656BB8792202970D000A2F4D /* 41.[unowned self] 与 [weak self] */,
 				65B289A822018F5B0028DD38 /* 40.UIPickerView的使用 */,
 				65B289A522018B820028DD38 /* 39.UICollectionView的使用4：样式修改 */,
 				65B289A2220171CD0028DD38 /* 38.UICollectionView的使用3：刷新集合数据 */,
@@ -522,6 +537,46 @@
 				656AB41121E5CBBB00C81F89 /* SingleViewController.swift */,
 			);
 			path = "16.特征序列1：Single、Completable、Maybe";
+			sourceTree = SOURCE_ROOT;
+		};
+		656BB8792202970D000A2F4D /* 41.[unowned self] 与 [weak self] */ = {
+			isa = PBXGroup;
+			children = (
+				656BB87A2202972A000A2F4D /* WeakSelfViewController.swift */,
+			);
+			path = "41.[unowned self] 与 [weak self]";
+			sourceTree = SOURCE_ROOT;
+		};
+		656BB87C22029A86000A2F4D /* 42.URLSession的使用1：请求数据 */ = {
+			isa = PBXGroup;
+			children = (
+				656BB87D22029A95000A2F4D /* URLSessionViewController.swift */,
+			);
+			path = "42.URLSession的使用1：请求数据";
+			sourceTree = SOURCE_ROOT;
+		};
+		656BB87F2202A863000A2F4D /* 43.URLSession的使用2：结果处理、模型转换 */ = {
+			isa = PBXGroup;
+			children = (
+				656BB8802202A87C000A2F4D /* ModelViewController.swift */,
+			);
+			path = "43.URLSession的使用2：结果处理、模型转换";
+			sourceTree = SOURCE_ROOT;
+		};
+		656BB8822202E2D0000A2F4D /* 44.结合RxAlamofire使用1：数据请求 */ = {
+			isa = PBXGroup;
+			children = (
+				656BB8832202E2E4000A2F4D /* RxAlamofireBasicViewController.swift */,
+			);
+			path = "44.结合RxAlamofire使用1：数据请求";
+			sourceTree = SOURCE_ROOT;
+		};
+		656BB8852202F047000A2F4D /* 45.结合RxAlamofire使用2：结果处理、模型转换 */ = {
+			isa = PBXGroup;
+			children = (
+				656BB8862202F05F000A2F4D /* RxAlamofireResultViewController.swift */,
+			);
+			path = "45.结合RxAlamofire使用2：结果处理、模型转换";
 			sourceTree = SOURCE_ROOT;
 		};
 		6586D80721D9CA740055A54A /* 5.观察者2： 自定义可绑定属性 */ = {
@@ -770,9 +825,11 @@
 			files = (
 				65B289A722018B930028DD38 /* UICollectionViewStyleEditViewController.swift in Sources */,
 				656176A121D49ED100A3BD9A /* ViewController.swift in Sources */,
+				656BB8842202E2E4000A2F4D /* RxAlamofireBasicViewController.swift in Sources */,
 				6550F66C21FEAFAA00FA1FFB /* UITableViewFiltrationViewController.swift in Sources */,
 				65B289A4220171E10028DD38 /* UICollectionRefreshViewController.swift in Sources */,
 				65B289A1220144610028DD38 /* MySectionHeader.swift in Sources */,
+				656BB87E22029A95000A2F4D /* URLSessionViewController.swift in Sources */,
 				6566193221E0A17000DED33D /* StartWithViewController.swift in Sources */,
 				655763E221FC40E5001365E5 /* UITableViewUserdViewController.swift in Sources */,
 				656AB40C21E5A60D00C81F89 /* ErrorHandlingOperatorsViewController.swift in Sources */,
@@ -787,6 +844,7 @@
 				655A30BD2200310A007C20F5 /* DifferentImageViewTableViewCell.swift in Sources */,
 				655A30CC2200521C007C20F5 /* BasicCollectionViewViewController.swift in Sources */,
 				6555158A21D5F664009395C4 /* AnyObserverViewController.swift in Sources */,
+				656BB8812202A87C000A2F4D /* ModelViewController.swift in Sources */,
 				6564637821E496BE00C1AD31 /* MaterializeViewController.swift in Sources */,
 				6555158D21D5F680009395C4 /* OrderObservableViewController.swift in Sources */,
 				655763DF21FC0139001365E5 /* UIDatePickerViewController.swift in Sources */,
@@ -798,9 +856,11 @@
 				659480BE21F56328006EB828 /* ButtonAndBarButtonItemViewController.swift in Sources */,
 				6550F66921FE90D000FA1FFB /* UITableViewRefreshViewController.swift in Sources */,
 				655A30C922004362007C20F5 /* UITableViewExchangeViewController.swift in Sources */,
+				656BB8872202F05F000A2F4D /* RxAlamofireResultViewController.swift in Sources */,
 				65B2DD8D21E3592E002C5177 /* ConnectViewController.swift in Sources */,
 				6566192F21E0933F00DED33D /* ConditionalAndBooleanOperatorsViewController.swift in Sources */,
 				6586D80921D9CAA00055A54A /* SelfObservableViewController.swift in Sources */,
+				656BB87B2202972A000A2F4D /* WeakSelfViewController.swift in Sources */,
 				6563E8A621E88D5600FD5004 /* UITextFieldUITextViewViewController.swift in Sources */,
 				656AB41221E5CBBB00C81F89 /* SingleViewController.swift in Sources */,
 				6555158921D5F664009395C4 /* ObservableViewControllerCreate.swift in Sources */,

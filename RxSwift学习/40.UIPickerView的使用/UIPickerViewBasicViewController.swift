@@ -15,7 +15,8 @@ class UIPickerViewBasicViewController: UIViewController {
 
     var pickerView: UIPickerView!
     
-    // 最简单的pickerView适配器(显示普通文本) 单列的  单列的UIPickerView.png
+    // 最简单的pickerView适配器(显示普通文本) 单列的
+    // 单列的UIPickerView.png
     private let stringPickerAdapter = RxPickerViewStringAdapter<[String]>(
         components: [],
         numberOfComponents: {_,_,_ in 1},
