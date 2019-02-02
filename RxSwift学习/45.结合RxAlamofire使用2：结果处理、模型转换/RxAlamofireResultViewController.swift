@@ -28,6 +28,7 @@ class RxAlamofireResultViewController: UIViewController {
         let urlString = "https://www.douban.com/j/app/radio/channels"
         let url = URL(string: urlString)!
         
+        // (1)如果服务器返回的数据是 json 格式的话，我们可以使用 iOS 内置的 JSONSerialization 将其转成 JSON 对象，方便我们使用。
         // 创建并发起请求
         request(.get, url)
             .data()
@@ -37,7 +38,7 @@ class RxAlamofireResultViewController: UIViewController {
                 print(json!)
             }).disposed(by: disposeBag)
         
-        // (2)我们换种方式，在订阅前使用responseJSON()进行转换也是可以的
+        //(2) 我们换种方式，在订阅前使用responseJSON()进行转换也是可以的
         request(.get, url)
             .responseJSON()
             .subscribe(onNext: { (dataResponse) in
@@ -85,5 +86,33 @@ class RxAlamofireResultViewController: UIViewController {
          五、将结果映射称自定义对象
          为了让 ObjectMapper 能够更好地与 RxSwift 配合使用，我们对 Observable 进行扩展（RxObjectMapper.swift），增加数据转模型对象、以及数据转模型对象数组这两个方法。
          */
+        
+        // 创建并发起请求
+//        requestJSON(.get, url)
+//            .map{$1}
+//        .mapObject(type: Douban.self)
+//            .subscribe(onNext: { (douban:Douban) in
+//                if let channels = douban.channels {
+//                    print("--- 共\(channels.count)个频道 ---")
+//                    for channel in channels {
+//                        if let name = channel.name,let channcelId = channel.channelId {
+//                            print("\(name) (id:\(channcelId)")
+//                        }
+//                    }
+//                }
+//            }).disposed(by: disposeBag)
+        
+        // 获取列表数据
+        let data1 = requestJSON(.get, url)
+            .map{$1}
+            .mapObject(type: Douban.self)
+            .map{ $0.channels ?? []}
+        
+        // 将数据绑定到表格
+        data1.bind(to: tableView.rx.items) { (tableView,row,element) in
+            let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")!
+            cell.textLabel?.text = "\(row):\(element.name!)"
+            return cell
+        }.disposed(by: disposeBag)
     }
 }
