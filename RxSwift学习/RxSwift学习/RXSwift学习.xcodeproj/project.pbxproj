@@ -14,6 +14,59 @@
 		65D776772217F8E2007DA04A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D776752217F8E2007DA04A /* LaunchScreen.storyboard */; };
 		65D776822217F8E2007DA04A /* RXSwift__Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776812217F8E2007DA04A /* RXSwift__Tests.swift */; };
 		65D7768D2217F8E2007DA04A /* RXSwift__UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D7768C2217F8E2007DA04A /* RXSwift__UITests.swift */; };
+		65D777002217FA2D007DA04A /* DebugViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D7769B2217FA29007DA04A /* DebugViewController.swift */; };
+		65D777012217FA2D007DA04A /* SubjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D7769D2217FA29007DA04A /* SubjectsViewController.swift */; };
+		65D777022217FA2D007DA04A /* MaterializeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D7769F2217FA29007DA04A /* MaterializeViewController.swift */; };
+		65D777032217FA2D007DA04A /* ConnectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776A12217FA29007DA04A /* ConnectViewController.swift */; };
+		65D777042217FA2D007DA04A /* UIGestureRecognizerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776A32217FA29007DA04A /* UIGestureRecognizerViewController.swift */; };
+		65D777052217FA2D007DA04A /* BasicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776A52217FA29007DA04A /* BasicCollectionViewCell.swift */; };
+		65D777062217FA2D007DA04A /* BasicCollectionViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776A62217FA29007DA04A /* BasicCollectionViewViewController.swift */; };
+		65D777072217FA2D007DA04A /* RxAlamofireResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776A82217FA29007DA04A /* RxAlamofireResultViewController.swift */; };
+		65D777082217FA2D007DA04A /* RxAlamofireUsefourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776AA2217FA29007DA04A /* RxAlamofireUsefourViewController.swift */; };
+		65D777092217FA2D007DA04A /* UISwitchUISegmentedControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776AC2217FA29007DA04A /* UISwitchUISegmentedControlViewController.swift */; };
+		65D7770A2217FA2D007DA04A /* ExtensionLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776AE2217FA29007DA04A /* ExtensionLabelViewController.swift */; };
+		65D7770B2217FA2D007DA04A /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776B02217FA29007DA04A /* FilterViewController.swift */; };
+		65D7770C2217FA2D007DA04A /* SingleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776B22217FA2A007DA04A /* SingleViewController.swift */; };
+		65D7770D2217FA2D007DA04A /* ControlPropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776B42217FA2A007DA04A /* ControlPropertyViewController.swift */; };
+		65D7770E2217FA2D007DA04A /* ButtonAndBarButtonItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776B62217FA2A007DA04A /* ButtonAndBarButtonItemViewController.swift */; };
+		65D7770F2217FA2D007DA04A /* ObservableViewControllerCreate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776B92217FA2A007DA04A /* ObservableViewControllerCreate.swift */; };
+		65D777102217FA2D007DA04A /* ToArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776BB2217FA2A007DA04A /* ToArrayViewController.swift */; };
+		65D777112217FA2D007DA04A /* SubscribeOnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776BD2217FA2A007DA04A /* SubscribeOnViewController.swift */; };
+		65D777122217FA2D007DA04A /* UITableViewUserdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776BF2217FA2A007DA04A /* UITableViewUserdViewController.swift */; };
+		65D777132217FA2D007DA04A /* UITableViewRefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776C12217FA2A007DA04A /* UITableViewRefreshViewController.swift */; };
+		65D777142217FA2D007DA04A /* EditTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776C32217FA2A007DA04A /* EditTabViewController.swift */; };
+		65D777152217FA2D007DA04A /* UIPickerViewBasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776C52217FA2A007DA04A /* UIPickerViewBasicViewController.swift */; };
+		65D777162217FA2D007DA04A /* WeakSelfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776C72217FA2A007DA04A /* WeakSelfViewController.swift */; };
+		65D777172217FA2D007DA04A /* ErrorHandlingOperatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776C92217FA2A007DA04A /* ErrorHandlingOperatorsViewController.swift */; };
+		65D777182217FA2D007DA04A /* UITextFieldUITextViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776CB2217FA2A007DA04A /* UITextFieldUITextViewViewController.swift */; };
+		65D777192217FA2D007DA04A /* RxAlamofireUseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776CD2217FA2A007DA04A /* RxAlamofireUseViewController.swift */; };
+		65D7771A2217FA2D007DA04A /* BufferViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776CF2217FA2A007DA04A /* BufferViewController.swift */; };
+		65D7771B2217FA2D007DA04A /* ObservableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776D12217FA2B007DA04A /* ObservableViewController.swift */; };
+		65D7771C2217FA2D007DA04A /* UITableViewFiltrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776D32217FA2B007DA04A /* UITableViewFiltrationViewController.swift */; };
+		65D7771D2217FA2D007DA04A /* AnyObserverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776D52217FA2B007DA04A /* AnyObserverViewController.swift */; };
+		65D7771E2217FA2D007DA04A /* UIDatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776D82217FA2B007DA04A /* UIDatePickerViewController.swift */; };
+		65D7771F2217FA2D007DA04A /* UICollectionRxDataSourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776DA2217FA2B007DA04A /* UICollectionRxDataSourcesViewController.swift */; };
+		65D777202217FA2D007DA04A /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776DB2217FA2B007DA04A /* MyCollectionViewCell.swift */; };
+		65D777212217FA2D007DA04A /* MySectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776DC2217FA2B007DA04A /* MySectionHeader.swift */; };
+		65D777222217FA2D007DA04A /* ShaungxiangbangdingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776DE2217FA2B007DA04A /* ShaungxiangbangdingViewController.swift */; };
+		65D777232217FA2D007DA04A /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776DF2217FA2B007DA04A /* Operators.swift */; };
+		65D777242217FA2D007DA04A /* SelfObservableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776E12217FA2B007DA04A /* SelfObservableViewController.swift */; };
+		65D777252217FA2D007DA04A /* DriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776E32217FA2B007DA04A /* DriverViewController.swift */; };
+		65D777262217FA2D007DA04A /* UICollectionViewStyleEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776E52217FA2B007DA04A /* UICollectionViewStyleEditViewController.swift */; };
+		65D777272217FA2D007DA04A /* URLSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776E72217FA2C007DA04A /* URLSessionViewController.swift */; };
+		65D777282217FA2D007DA04A /* RxAlamofireBasicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776E92217FA2C007DA04A /* RxAlamofireBasicViewController.swift */; };
+		65D777292217FA2D007DA04A /* UISliderAndUIStepperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776EB2217FA2C007DA04A /* UISliderAndUIStepperViewController.swift */; };
+		65D7772A2217FA2D007DA04A /* OrderObservableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776ED2217FA2C007DA04A /* OrderObservableViewController.swift */; };
+		65D7772B2217FA2D007DA04A /* ConditionalAndBooleanOperatorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776EF2217FA2C007DA04A /* ConditionalAndBooleanOperatorsViewController.swift */; };
+		65D7772C2217FA2D007DA04A /* TabRxDataSourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776F12217FA2C007DA04A /* TabRxDataSourcesViewController.swift */; };
+		65D7772D2217FA2D007DA04A /* UIActivityIndicatorViewAndUIApplicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776F32217FA2C007DA04A /* UIActivityIndicatorViewAndUIApplicationViewController.swift */; };
+		65D7772E2217FA2D007DA04A /* ModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776F52217FA2C007DA04A /* ModelViewController.swift */; };
+		65D7772F2217FA2D007DA04A /* StartWithViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776F72217FA2C007DA04A /* StartWithViewController.swift */; };
+		65D777302217FA2D007DA04A /* UICollectionRefreshViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776F92217FA2C007DA04A /* UICollectionRefreshViewController.swift */; };
+		65D777312217FA2D007DA04A /* UITableViewExchangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776FB2217FA2C007DA04A /* UITableViewExchangeViewController.swift */; };
+		65D777322217FA2D007DA04A /* UITableViewDifferentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776FD2217FA2C007DA04A /* UITableViewDifferentViewController.swift */; };
+		65D777332217FA2D007DA04A /* DifferentSwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776FE2217FA2C007DA04A /* DifferentSwitchTableViewCell.swift */; };
+		65D777342217FA2D007DA04A /* DifferentImageViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776FF2217FA2C007DA04A /* DifferentImageViewTableViewCell.swift */; };
 		CDCAF233997F7318B17F87AE /* libPods-RXSwift学习.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BBB67C7C4A0D91087A1FAC /* libPods-RXSwift学习.a */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +101,59 @@
 		65D776882217F8E2007DA04A /* RXSwift学习UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RXSwift学习UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D7768C2217F8E2007DA04A /* RXSwift__UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXSwift__UITests.swift; sourceTree = "<group>"; };
 		65D7768E2217F8E2007DA04A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65D7769B2217FA29007DA04A /* DebugViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugViewController.swift; sourceTree = "<group>"; };
+		65D7769D2217FA29007DA04A /* SubjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubjectsViewController.swift; sourceTree = "<group>"; };
+		65D7769F2217FA29007DA04A /* MaterializeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterializeViewController.swift; sourceTree = "<group>"; };
+		65D776A12217FA29007DA04A /* ConnectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectViewController.swift; sourceTree = "<group>"; };
+		65D776A32217FA29007DA04A /* UIGestureRecognizerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIGestureRecognizerViewController.swift; sourceTree = "<group>"; };
+		65D776A52217FA29007DA04A /* BasicCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicCollectionViewCell.swift; sourceTree = "<group>"; };
+		65D776A62217FA29007DA04A /* BasicCollectionViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicCollectionViewViewController.swift; sourceTree = "<group>"; };
+		65D776A82217FA29007DA04A /* RxAlamofireResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxAlamofireResultViewController.swift; sourceTree = "<group>"; };
+		65D776AA2217FA29007DA04A /* RxAlamofireUsefourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxAlamofireUsefourViewController.swift; sourceTree = "<group>"; };
+		65D776AC2217FA29007DA04A /* UISwitchUISegmentedControlViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISwitchUISegmentedControlViewController.swift; sourceTree = "<group>"; };
+		65D776AE2217FA29007DA04A /* ExtensionLabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionLabelViewController.swift; sourceTree = "<group>"; };
+		65D776B02217FA29007DA04A /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		65D776B22217FA2A007DA04A /* SingleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingleViewController.swift; sourceTree = "<group>"; };
+		65D776B42217FA2A007DA04A /* ControlPropertyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControlPropertyViewController.swift; sourceTree = "<group>"; };
+		65D776B62217FA2A007DA04A /* ButtonAndBarButtonItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonAndBarButtonItemViewController.swift; sourceTree = "<group>"; };
+		65D776B92217FA2A007DA04A /* ObservableViewControllerCreate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableViewControllerCreate.swift; sourceTree = "<group>"; };
+		65D776BB2217FA2A007DA04A /* ToArrayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToArrayViewController.swift; sourceTree = "<group>"; };
+		65D776BD2217FA2A007DA04A /* SubscribeOnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscribeOnViewController.swift; sourceTree = "<group>"; };
+		65D776BF2217FA2A007DA04A /* UITableViewUserdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewUserdViewController.swift; sourceTree = "<group>"; };
+		65D776C12217FA2A007DA04A /* UITableViewRefreshViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewRefreshViewController.swift; sourceTree = "<group>"; };
+		65D776C32217FA2A007DA04A /* EditTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTabViewController.swift; sourceTree = "<group>"; };
+		65D776C52217FA2A007DA04A /* UIPickerViewBasicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIPickerViewBasicViewController.swift; sourceTree = "<group>"; };
+		65D776C72217FA2A007DA04A /* WeakSelfViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeakSelfViewController.swift; sourceTree = "<group>"; };
+		65D776C92217FA2A007DA04A /* ErrorHandlingOperatorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorHandlingOperatorsViewController.swift; sourceTree = "<group>"; };
+		65D776CB2217FA2A007DA04A /* UITextFieldUITextViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldUITextViewViewController.swift; sourceTree = "<group>"; };
+		65D776CD2217FA2A007DA04A /* RxAlamofireUseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxAlamofireUseViewController.swift; sourceTree = "<group>"; };
+		65D776CF2217FA2A007DA04A /* BufferViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BufferViewController.swift; sourceTree = "<group>"; };
+		65D776D12217FA2B007DA04A /* ObservableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableViewController.swift; sourceTree = "<group>"; };
+		65D776D32217FA2B007DA04A /* UITableViewFiltrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewFiltrationViewController.swift; sourceTree = "<group>"; };
+		65D776D52217FA2B007DA04A /* AnyObserverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyObserverViewController.swift; sourceTree = "<group>"; };
+		65D776D82217FA2B007DA04A /* UIDatePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIDatePickerViewController.swift; sourceTree = "<group>"; };
+		65D776DA2217FA2B007DA04A /* UICollectionRxDataSourcesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionRxDataSourcesViewController.swift; sourceTree = "<group>"; };
+		65D776DB2217FA2B007DA04A /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		65D776DC2217FA2B007DA04A /* MySectionHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySectionHeader.swift; sourceTree = "<group>"; };
+		65D776DE2217FA2B007DA04A /* ShaungxiangbangdingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShaungxiangbangdingViewController.swift; sourceTree = "<group>"; };
+		65D776DF2217FA2B007DA04A /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		65D776E12217FA2B007DA04A /* SelfObservableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelfObservableViewController.swift; sourceTree = "<group>"; };
+		65D776E32217FA2B007DA04A /* DriverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverViewController.swift; sourceTree = "<group>"; };
+		65D776E52217FA2B007DA04A /* UICollectionViewStyleEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewStyleEditViewController.swift; sourceTree = "<group>"; };
+		65D776E72217FA2C007DA04A /* URLSessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLSessionViewController.swift; sourceTree = "<group>"; };
+		65D776E92217FA2C007DA04A /* RxAlamofireBasicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxAlamofireBasicViewController.swift; sourceTree = "<group>"; };
+		65D776EB2217FA2C007DA04A /* UISliderAndUIStepperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISliderAndUIStepperViewController.swift; sourceTree = "<group>"; };
+		65D776ED2217FA2C007DA04A /* OrderObservableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderObservableViewController.swift; sourceTree = "<group>"; };
+		65D776EF2217FA2C007DA04A /* ConditionalAndBooleanOperatorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionalAndBooleanOperatorsViewController.swift; sourceTree = "<group>"; };
+		65D776F12217FA2C007DA04A /* TabRxDataSourcesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabRxDataSourcesViewController.swift; sourceTree = "<group>"; };
+		65D776F32217FA2C007DA04A /* UIActivityIndicatorViewAndUIApplicationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIActivityIndicatorViewAndUIApplicationViewController.swift; sourceTree = "<group>"; };
+		65D776F52217FA2C007DA04A /* ModelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelViewController.swift; sourceTree = "<group>"; };
+		65D776F72217FA2C007DA04A /* StartWithViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartWithViewController.swift; sourceTree = "<group>"; };
+		65D776F92217FA2C007DA04A /* UICollectionRefreshViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionRefreshViewController.swift; sourceTree = "<group>"; };
+		65D776FB2217FA2C007DA04A /* UITableViewExchangeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExchangeViewController.swift; sourceTree = "<group>"; };
+		65D776FD2217FA2C007DA04A /* UITableViewDifferentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewDifferentViewController.swift; sourceTree = "<group>"; };
+		65D776FE2217FA2C007DA04A /* DifferentSwitchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DifferentSwitchTableViewCell.swift; sourceTree = "<group>"; };
+		65D776FF2217FA2C007DA04A /* DifferentImageViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DifferentImageViewTableViewCell.swift; sourceTree = "<group>"; };
 		90686447E2C47CEB69143743 /* Pods-RXSwift学习.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXSwift学习.release.xcconfig"; path = "Pods/Target Support Files/Pods-RXSwift学习/Pods-RXSwift学习.release.xcconfig"; sourceTree = "<group>"; };
 		DE383576E1ADA7BAAE24D2FF /* Pods-RXSwift学习.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXSwift学习.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RXSwift学习/Pods-RXSwift学习.debug.xcconfig"; sourceTree = "<group>"; };
 		F5BBB67C7C4A0D91087A1FAC /* libPods-RXSwift学习.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RXSwift学习.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +218,54 @@
 		65D7766B2217F8E1007DA04A /* RXSwift学习 */ = {
 			isa = PBXGroup;
 			children = (
+				65D776B72217FA2A007DA04A /* 1.响应式编程与传统式编程的比较样例 */,
+				65D776EC2217FA2C007DA04A /* 2.Observable介绍、创建可观察序列 */,
+				65D776D02217FA2B007DA04A /* 3.Observable订阅、事件监听、订阅销毁 */,
+				65D776D42217FA2B007DA04A /* 4.观察者1： AnyObserver、Binder */,
+				65D776E02217FA2B007DA04A /* 5.观察者2： 自定义可绑定属性 */,
+				65D7769C2217FA29007DA04A /* 6.Subjects、Variables */,
+				65D776CE2217FA2A007DA04A /* 7.变换操作符：buffer、map、flatMap、scan等 */,
+				65D776AF2217FA29007DA04A /* 8.过滤操作符：filter、take、skip等 */,
+				65D776EE2217FA2C007DA04A /* 9.条件和布尔操作符（Conditional and Boolean Operators） */,
+				65D776F62217FA2C007DA04A /* 10.结合操作符：startWith、merge、zip等 */,
+				65D776BA2217FA2A007DA04A /* 11.算数&聚合操作符：toArray、reduce、concat */,
+				65D776A02217FA29007DA04A /* 12.连接操作符：connect、publish、replay、multicast */,
+				65D7769E2217FA29007DA04A /* 13.其他操作符：delay、materialize、timeout等 */,
+				65D776C82217FA2A007DA04A /* 14.错误处理 */,
+				65D7769A2217FA29007DA04A /* 15.调试操作 */,
+				65D776B12217FA2A007DA04A /* 16.特征序列1：Single、Completable、Maybe */,
+				65D776E22217FA2B007DA04A /* 17.特征序列2：Driver */,
+				65D776B32217FA2A007DA04A /* 18.特征序列3：ControlProperty、 ControlEvent */,
+				65D776BC2217FA2A007DA04A /* 19.调度器、subscribeOn、observeOn */,
+				65D776AD2217FA29007DA04A /* 20.UI控件扩展1：UILabel */,
+				65D776CA2217FA2A007DA04A /* 21.UI控件扩展2：UITextField、UITextView */,
+				65D776B52217FA2A007DA04A /* 22.UI控件扩展3：UIButton、UIBarButtonItem */,
+				65D776AB2217FA29007DA04A /* 23.UI控件扩展4：UISwitch、UISegmentedControl */,
+				65D776F22217FA2C007DA04A /* 24.UIActivityIndicatorView 与 UIApplication */,
+				65D776EA2217FA2C007DA04A /* 25.UISlider、UIStepper */,
+				65D776DD2217FA2B007DA04A /* 26.双向绑定：<-> */,
+				65D776A22217FA29007DA04A /* 27.UI控件扩展7：UIGestureRecognizer */,
+				65D776D72217FA2B007DA04A /* 28.UI控件扩展8：UIDatePicker */,
+				65D776BE2217FA2A007DA04A /* 29.UITableView的使用1：基本用法 */,
+				65D776F02217FA2C007DA04A /* 30.UITableView的使用2：RxDataSources */,
+				65D776C02217FA2A007DA04A /* 31.UITableView的使用3：刷新表格数据 */,
+				65D776D22217FA2B007DA04A /* 32.UITableView的使用4：表格数据的搜索过滤 */,
+				65D776C22217FA2A007DA04A /* 33.UITableView的使用5：可编辑表格 */,
+				65D776FC2217FA2C007DA04A /* 34.UITableView的使用6：不同类型的单元格混用 */,
+				65D776FA2217FA2C007DA04A /* 35.UITableView的使用7：样式修改 */,
+				65D776A42217FA29007DA04A /* 36.UICollectionView的使用1：基本用法 */,
+				65D776D92217FA2B007DA04A /* 37.UICollectionView的使用2：RxDataSources */,
+				65D776F82217FA2C007DA04A /* 38.UICollectionView的使用3：刷新集合数据 */,
+				65D776E42217FA2B007DA04A /* 39.UICollectionView的使用4：样式修改 */,
+				65D776C42217FA2A007DA04A /* 40.UIPickerView的使用 */,
+				65D776C62217FA2A007DA04A /* 41.[unowned self] 与 [weak self] */,
+				65D776E62217FA2C007DA04A /* 42.URLSession的使用1：请求数据 */,
+				65D776F42217FA2C007DA04A /* 43.URLSession的使用2：结果处理、模型转换 */,
+				65D776E82217FA2C007DA04A /* 44.结合RxAlamofire使用1：数据请求 */,
+				65D776A72217FA29007DA04A /* 45.结合RxAlamofire使用2：结果处理、模型转换 */,
+				65D776CC2217FA2A007DA04A /* 46.结合RxAlamofire使用3：文件上传 */,
+				65D776A92217FA29007DA04A /* 47.结合RxAlamofire使用4：文件下载 */,
+				65D776D62217FA2B007DA04A /* 48.结合Moya使用1：数据请求 */,
 				65D7766C2217F8E1007DA04A /* AppDelegate.swift */,
 				65D7766E2217F8E1007DA04A /* ViewController.swift */,
 				65D776702217F8E1007DA04A /* Main.storyboard */,
@@ -138,6 +292,403 @@
 				65D7768E2217F8E2007DA04A /* Info.plist */,
 			);
 			path = "RXSwift学习UITests";
+			sourceTree = "<group>";
+		};
+		65D7769A2217FA29007DA04A /* 15.调试操作 */ = {
+			isa = PBXGroup;
+			children = (
+				65D7769B2217FA29007DA04A /* DebugViewController.swift */,
+			);
+			path = "15.调试操作";
+			sourceTree = "<group>";
+		};
+		65D7769C2217FA29007DA04A /* 6.Subjects、Variables */ = {
+			isa = PBXGroup;
+			children = (
+				65D7769D2217FA29007DA04A /* SubjectsViewController.swift */,
+			);
+			path = "6.Subjects、Variables";
+			sourceTree = "<group>";
+		};
+		65D7769E2217FA29007DA04A /* 13.其他操作符：delay、materialize、timeout等 */ = {
+			isa = PBXGroup;
+			children = (
+				65D7769F2217FA29007DA04A /* MaterializeViewController.swift */,
+			);
+			path = "13.其他操作符：delay、materialize、timeout等";
+			sourceTree = "<group>";
+		};
+		65D776A02217FA29007DA04A /* 12.连接操作符：connect、publish、replay、multicast */ = {
+			isa = PBXGroup;
+			children = (
+				65D776A12217FA29007DA04A /* ConnectViewController.swift */,
+			);
+			path = "12.连接操作符：connect、publish、replay、multicast";
+			sourceTree = "<group>";
+		};
+		65D776A22217FA29007DA04A /* 27.UI控件扩展7：UIGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				65D776A32217FA29007DA04A /* UIGestureRecognizerViewController.swift */,
+			);
+			path = "27.UI控件扩展7：UIGestureRecognizer";
+			sourceTree = "<group>";
+		};
+		65D776A42217FA29007DA04A /* 36.UICollectionView的使用1：基本用法 */ = {
+			isa = PBXGroup;
+			children = (
+				65D776A52217FA29007DA04A /* BasicCollectionViewCell.swift */,
+				65D776A62217FA29007DA04A /* BasicCollectionViewViewController.swift */,
+			);
+			path = "36.UICollectionView的使用1：基本用法";
+			sourceTree = "<group>";
+		};
+		65D776A72217FA29007DA04A /* 45.结合RxAlamofire使用2：结果处理、模型转换 */ = {
+			isa = PBXGroup;
+			children = (
+				65D776A82217FA29007DA04A /* RxAlamofireResultViewController.swift */,
+			);
+			path = "45.结合RxAlamofire使用2：结果处理、模型转换";
+			sourceTree = "<group>";
+		};
+		65D776A92217FA29007DA04A /* 47.结合RxAlamofire使用4：文件下载 */ = {
+			isa = PBXGroup;
+			children = (
+				65D776AA2217FA29007DA04A /* RxAlamofireUsefourViewController.swift */,
+			);
+			path = "47.结合RxAlamofire使用4：文件下载";
+			sourceTree = "<group>";
+		};
+		65D776AB2217FA29007DA04A /* 23.UI控件扩展4：UISwitch、UISegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				65D776AC2217FA29007DA04A /* UISwitchUISegmentedControlViewController.swift */,
+			);
+			path = "23.UI控件扩展4：UISwitch、UISegmentedControl";
+			sourceTree = "<group>";
+		};
+		65D776AD2217FA29007DA04A /* 20.UI控件扩展1：UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				65D776AE2217FA29007DA04A /* ExtensionLabelViewController.swift */,
+			);
+			path = "20.UI控件扩展1：UILabel";
+			sourceTree = "<group>";
+		};
+		65D776AF2217FA29007DA04A /* 8.过滤操作符：filter、take、skip等 */ = {
+			isa = PBXGroup;
+			children = (
+				65D776B02217FA29007DA04A /* FilterViewController.swift */,
+			);
+			path = "8.过滤操作符：filter、take、skip等";
+			sourceTree = "<group>";
+		};
+		65D776B12217FA2A007DA04A /* 16.特征序列1：Single、Completable、Maybe */ = {
+			isa = PBXGroup;
+			children = (
+				65D776B22217FA2A007DA04A /* SingleViewController.swift */,
+			);
+			path = "16.特征序列1：Single、Completable、Maybe";
+			sourceTree = "<group>";
+		};
+		65D776B32217FA2A007DA04A /* 18.特征序列3：ControlProperty、 ControlEvent */ = {
+			isa = PBXGroup;
+			children = (
+				65D776B42217FA2A007DA04A /* ControlPropertyViewController.swift */,
+			);
+			path = "18.特征序列3：ControlProperty、 ControlEvent";
+			sourceTree = "<group>";
+		};
+		65D776B52217FA2A007DA04A /* 22.UI控件扩展3：UIButton、UIBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				65D776B62217FA2A007DA04A /* ButtonAndBarButtonItemViewController.swift */,
+			);
+			path = "22.UI控件扩展3：UIButton、UIBarButtonItem";
+			sourceTree = "<group>";
+		};
+		65D776B72217FA2A007DA04A /* 1.响应式编程与传统式编程的比较样例 */ = {
+			isa = PBXGroup;
+			children = (
+				65D776B82217FA2A007DA04A /* Controller */,
+			);
+			path = "1.响应式编程与传统式编程的比较样例";
+			sourceTree = "<group>";
+		};
+		65D776B82217FA2A007DA04A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				65D776B92217FA2A007DA04A /* ObservableViewControllerCreate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		65D776BA2217FA2A007DA04A /* 11.算数&聚合操作符：toArray、reduce、concat */ = {
+			isa = PBXGroup;
+			children = (
+				65D776BB2217FA2A007DA04A /* ToArrayViewController.swift */,
+			);
+			path = "11.算数&聚合操作符：toArray、reduce、concat";
+			sourceTree = "<group>";
+		};
+		65D776BC2217FA2A007DA04A /* 19.调度器、subscribeOn、observeOn */ = {
+			isa = PBXGroup;
+			children = (
+				65D776BD2217FA2A007DA04A /* SubscribeOnViewController.swift */,
+			);
+			path = "19.调度器、subscribeOn、observeOn";
+			sourceTree = "<group>";
+		};
+		65D776BE2217FA2A007DA04A /* 29.UITableView的使用1：基本用法 */ = {
+			isa = PBXGroup;
+			children = (
+				65D776BF2217FA2A007DA04A /* UITableViewUserdViewController.swift */,
+			);
+			path = "29.UITableView的使用1：基本用法";
+			sourceTree = "<group>";
+		};
+		65D776C02217FA2A007DA04A /* 31.UITableView的使用3：刷新表格数据 */ = {
+			isa = PBXGroup;
+			children = (
+				65D776C12217FA2A007DA04A /* UITableViewRefreshViewController.swift */,
+			);
+			path = "31.UITableView的使用3：刷新表格数据";
+			sourceTree = "<group>";
+		};
+		65D776C22217FA2A007DA04A /* 33.UITableView的使用5：可编辑表格 */ = {
+			isa = PBXGroup;
+			children = (
+				65D776C32217FA2A007DA04A /* EditTabViewController.swift */,
+			);
+			path = "33.UITableView的使用5：可编辑表格";
+			sourceTree = "<group>";
+		};
+		65D776C42217FA2A007DA04A /* 40.UIPickerView的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				65D776C52217FA2A007DA04A /* UIPickerViewBasicViewController.swift */,
+			);
+			path = "40.UIPickerView的使用";
+			sourceTree = "<group>";
+		};
+		65D776C62217FA2A007DA04A /* 41.[unowned self] 与 [weak self] */ = {
+			isa = PBXGroup;
+			children = (
+				65D776C72217FA2A007DA04A /* WeakSelfViewController.swift */,
+			);
+			path = "41.[unowned self] 与 [weak self]";
+			sourceTree = "<group>";
+		};
+		65D776C82217FA2A007DA04A /* 14.错误处理 */ = {
+			isa = PBXGroup;
+			children = (
+				65D776C92217FA2A007DA04A /* ErrorHandlingOperatorsViewController.swift */,
+			);
+			path = "14.错误处理";
+			sourceTree = "<group>";
+		};
+		65D776CA2217FA2A007DA04A /* 21.UI控件扩展2：UITextField、UITextView */ = {
+			isa = PBXGroup;
+			children = (
+				65D776CB2217FA2A007DA04A /* UITextFieldUITextViewViewController.swift */,
+			);
+			path = "21.UI控件扩展2：UITextField、UITextView";
+			sourceTree = "<group>";
+		};
+		65D776CC2217FA2A007DA04A /* 46.结合RxAlamofire使用3：文件上传 */ = {
+			isa = PBXGroup;
+			children = (
+				65D776CD2217FA2A007DA04A /* RxAlamofireUseViewController.swift */,
+			);
+			path = "46.结合RxAlamofire使用3：文件上传";
+			sourceTree = "<group>";
+		};
+		65D776CE2217FA2A007DA04A /* 7.变换操作符：buffer、map、flatMap、scan等 */ = {
+			isa = PBXGroup;
+			children = (
+				65D776CF2217FA2A007DA04A /* BufferViewController.swift */,
+			);
+			path = "7.变换操作符：buffer、map、flatMap、scan等";
+			sourceTree = "<group>";
+		};
+		65D776D02217FA2B007DA04A /* 3.Observable订阅、事件监听、订阅销毁 */ = {
+			isa = PBXGroup;
+			children = (
+				65D776D12217FA2B007DA04A /* ObservableViewController.swift */,
+			);
+			path = "3.Observable订阅、事件监听、订阅销毁";
+			sourceTree = "<group>";
+		};
+		65D776D22217FA2B007DA04A /* 32.UITableView的使用4：表格数据的搜索过滤 */ = {
+			isa = PBXGroup;
+			children = (
+				65D776D32217FA2B007DA04A /* UITableViewFiltrationViewController.swift */,
+			);
+			path = "32.UITableView的使用4：表格数据的搜索过滤";
+			sourceTree = "<group>";
+		};
+		65D776D42217FA2B007DA04A /* 4.观察者1： AnyObserver、Binder */ = {
+			isa = PBXGroup;
+			children = (
+				65D776D52217FA2B007DA04A /* AnyObserverViewController.swift */,
+			);
+			path = "4.观察者1： AnyObserver、Binder";
+			sourceTree = "<group>";
+		};
+		65D776D62217FA2B007DA04A /* 48.结合Moya使用1：数据请求 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "48.结合Moya使用1：数据请求";
+			sourceTree = "<group>";
+		};
+		65D776D72217FA2B007DA04A /* 28.UI控件扩展8：UIDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				65D776D82217FA2B007DA04A /* UIDatePickerViewController.swift */,
+			);
+			path = "28.UI控件扩展8：UIDatePicker";
+			sourceTree = "<group>";
+		};
+		65D776D92217FA2B007DA04A /* 37.UICollectionView的使用2：RxDataSources */ = {
+			isa = PBXGroup;
+			children = (
+				65D776DA2217FA2B007DA04A /* UICollectionRxDataSourcesViewController.swift */,
+				65D776DB2217FA2B007DA04A /* MyCollectionViewCell.swift */,
+				65D776DC2217FA2B007DA04A /* MySectionHeader.swift */,
+			);
+			path = "37.UICollectionView的使用2：RxDataSources";
+			sourceTree = "<group>";
+		};
+		65D776DD2217FA2B007DA04A /* 26.双向绑定：<-> */ = {
+			isa = PBXGroup;
+			children = (
+				65D776DE2217FA2B007DA04A /* ShaungxiangbangdingViewController.swift */,
+				65D776DF2217FA2B007DA04A /* Operators.swift */,
+			);
+			path = "26.双向绑定：<->";
+			sourceTree = "<group>";
+		};
+		65D776E02217FA2B007DA04A /* 5.观察者2： 自定义可绑定属性 */ = {
+			isa = PBXGroup;
+			children = (
+				65D776E12217FA2B007DA04A /* SelfObservableViewController.swift */,
+			);
+			path = "5.观察者2： 自定义可绑定属性";
+			sourceTree = "<group>";
+		};
+		65D776E22217FA2B007DA04A /* 17.特征序列2：Driver */ = {
+			isa = PBXGroup;
+			children = (
+				65D776E32217FA2B007DA04A /* DriverViewController.swift */,
+			);
+			path = "17.特征序列2：Driver";
+			sourceTree = "<group>";
+		};
+		65D776E42217FA2B007DA04A /* 39.UICollectionView的使用4：样式修改 */ = {
+			isa = PBXGroup;
+			children = (
+				65D776E52217FA2B007DA04A /* UICollectionViewStyleEditViewController.swift */,
+			);
+			path = "39.UICollectionView的使用4：样式修改";
+			sourceTree = "<group>";
+		};
+		65D776E62217FA2C007DA04A /* 42.URLSession的使用1：请求数据 */ = {
+			isa = PBXGroup;
+			children = (
+				65D776E72217FA2C007DA04A /* URLSessionViewController.swift */,
+			);
+			path = "42.URLSession的使用1：请求数据";
+			sourceTree = "<group>";
+		};
+		65D776E82217FA2C007DA04A /* 44.结合RxAlamofire使用1：数据请求 */ = {
+			isa = PBXGroup;
+			children = (
+				65D776E92217FA2C007DA04A /* RxAlamofireBasicViewController.swift */,
+			);
+			path = "44.结合RxAlamofire使用1：数据请求";
+			sourceTree = "<group>";
+		};
+		65D776EA2217FA2C007DA04A /* 25.UISlider、UIStepper */ = {
+			isa = PBXGroup;
+			children = (
+				65D776EB2217FA2C007DA04A /* UISliderAndUIStepperViewController.swift */,
+			);
+			path = "25.UISlider、UIStepper";
+			sourceTree = "<group>";
+		};
+		65D776EC2217FA2C007DA04A /* 2.Observable介绍、创建可观察序列 */ = {
+			isa = PBXGroup;
+			children = (
+				65D776ED2217FA2C007DA04A /* OrderObservableViewController.swift */,
+			);
+			path = "2.Observable介绍、创建可观察序列";
+			sourceTree = "<group>";
+		};
+		65D776EE2217FA2C007DA04A /* 9.条件和布尔操作符（Conditional and Boolean Operators） */ = {
+			isa = PBXGroup;
+			children = (
+				65D776EF2217FA2C007DA04A /* ConditionalAndBooleanOperatorsViewController.swift */,
+			);
+			path = "9.条件和布尔操作符（Conditional and Boolean Operators）";
+			sourceTree = "<group>";
+		};
+		65D776F02217FA2C007DA04A /* 30.UITableView的使用2：RxDataSources */ = {
+			isa = PBXGroup;
+			children = (
+				65D776F12217FA2C007DA04A /* TabRxDataSourcesViewController.swift */,
+			);
+			path = "30.UITableView的使用2：RxDataSources";
+			sourceTree = "<group>";
+		};
+		65D776F22217FA2C007DA04A /* 24.UIActivityIndicatorView 与 UIApplication */ = {
+			isa = PBXGroup;
+			children = (
+				65D776F32217FA2C007DA04A /* UIActivityIndicatorViewAndUIApplicationViewController.swift */,
+			);
+			path = "24.UIActivityIndicatorView 与 UIApplication";
+			sourceTree = "<group>";
+		};
+		65D776F42217FA2C007DA04A /* 43.URLSession的使用2：结果处理、模型转换 */ = {
+			isa = PBXGroup;
+			children = (
+				65D776F52217FA2C007DA04A /* ModelViewController.swift */,
+			);
+			path = "43.URLSession的使用2：结果处理、模型转换";
+			sourceTree = "<group>";
+		};
+		65D776F62217FA2C007DA04A /* 10.结合操作符：startWith、merge、zip等 */ = {
+			isa = PBXGroup;
+			children = (
+				65D776F72217FA2C007DA04A /* StartWithViewController.swift */,
+			);
+			path = "10.结合操作符：startWith、merge、zip等";
+			sourceTree = "<group>";
+		};
+		65D776F82217FA2C007DA04A /* 38.UICollectionView的使用3：刷新集合数据 */ = {
+			isa = PBXGroup;
+			children = (
+				65D776F92217FA2C007DA04A /* UICollectionRefreshViewController.swift */,
+			);
+			path = "38.UICollectionView的使用3：刷新集合数据";
+			sourceTree = "<group>";
+		};
+		65D776FA2217FA2C007DA04A /* 35.UITableView的使用7：样式修改 */ = {
+			isa = PBXGroup;
+			children = (
+				65D776FB2217FA2C007DA04A /* UITableViewExchangeViewController.swift */,
+			);
+			path = "35.UITableView的使用7：样式修改";
+			sourceTree = "<group>";
+		};
+		65D776FC2217FA2C007DA04A /* 34.UITableView的使用6：不同类型的单元格混用 */ = {
+			isa = PBXGroup;
+			children = (
+				65D776FD2217FA2C007DA04A /* UITableViewDifferentViewController.swift */,
+				65D776FE2217FA2C007DA04A /* DifferentSwitchTableViewCell.swift */,
+				65D776FF2217FA2C007DA04A /* DifferentImageViewTableViewCell.swift */,
+			);
+			path = "34.UITableView的使用6：不同类型的单元格混用";
 			sourceTree = "<group>";
 		};
 		CDED46482514C367C0384CA6 /* Pods */ = {
@@ -302,8 +853,61 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65D7770B2217FA2D007DA04A /* FilterViewController.swift in Sources */,
+				65D777202217FA2D007DA04A /* MyCollectionViewCell.swift in Sources */,
+				65D7771F2217FA2D007DA04A /* UICollectionRxDataSourcesViewController.swift in Sources */,
+				65D777332217FA2D007DA04A /* DifferentSwitchTableViewCell.swift in Sources */,
+				65D777292217FA2D007DA04A /* UISliderAndUIStepperViewController.swift in Sources */,
+				65D777002217FA2D007DA04A /* DebugViewController.swift in Sources */,
+				65D7772E2217FA2D007DA04A /* ModelViewController.swift in Sources */,
+				65D7770E2217FA2D007DA04A /* ButtonAndBarButtonItemViewController.swift in Sources */,
+				65D777062217FA2D007DA04A /* BasicCollectionViewViewController.swift in Sources */,
+				65D777082217FA2D007DA04A /* RxAlamofireUsefourViewController.swift in Sources */,
+				65D7772B2217FA2D007DA04A /* ConditionalAndBooleanOperatorsViewController.swift in Sources */,
+				65D777092217FA2D007DA04A /* UISwitchUISegmentedControlViewController.swift in Sources */,
+				65D777052217FA2D007DA04A /* BasicCollectionViewCell.swift in Sources */,
+				65D7770C2217FA2D007DA04A /* SingleViewController.swift in Sources */,
+				65D777262217FA2D007DA04A /* UICollectionViewStyleEditViewController.swift in Sources */,
+				65D777152217FA2D007DA04A /* UIPickerViewBasicViewController.swift in Sources */,
+				65D7771D2217FA2D007DA04A /* AnyObserverViewController.swift in Sources */,
+				65D7771E2217FA2D007DA04A /* UIDatePickerViewController.swift in Sources */,
+				65D777182217FA2D007DA04A /* UITextFieldUITextViewViewController.swift in Sources */,
+				65D777012217FA2D007DA04A /* SubjectsViewController.swift in Sources */,
+				65D7772A2217FA2D007DA04A /* OrderObservableViewController.swift in Sources */,
+				65D777302217FA2D007DA04A /* UICollectionRefreshViewController.swift in Sources */,
+				65D777312217FA2D007DA04A /* UITableViewExchangeViewController.swift in Sources */,
+				65D777242217FA2D007DA04A /* SelfObservableViewController.swift in Sources */,
+				65D777252217FA2D007DA04A /* DriverViewController.swift in Sources */,
 				65D7766F2217F8E1007DA04A /* ViewController.swift in Sources */,
+				65D777032217FA2D007DA04A /* ConnectViewController.swift in Sources */,
+				65D777342217FA2D007DA04A /* DifferentImageViewTableViewCell.swift in Sources */,
+				65D7771B2217FA2D007DA04A /* ObservableViewController.swift in Sources */,
+				65D7772F2217FA2D007DA04A /* StartWithViewController.swift in Sources */,
+				65D777122217FA2D007DA04A /* UITableViewUserdViewController.swift in Sources */,
+				65D777072217FA2D007DA04A /* RxAlamofireResultViewController.swift in Sources */,
+				65D777212217FA2D007DA04A /* MySectionHeader.swift in Sources */,
+				65D777112217FA2D007DA04A /* SubscribeOnViewController.swift in Sources */,
+				65D7772C2217FA2D007DA04A /* TabRxDataSourcesViewController.swift in Sources */,
+				65D7770D2217FA2D007DA04A /* ControlPropertyViewController.swift in Sources */,
+				65D777172217FA2D007DA04A /* ErrorHandlingOperatorsViewController.swift in Sources */,
+				65D7770F2217FA2D007DA04A /* ObservableViewControllerCreate.swift in Sources */,
+				65D777232217FA2D007DA04A /* Operators.swift in Sources */,
+				65D777192217FA2D007DA04A /* RxAlamofireUseViewController.swift in Sources */,
+				65D7771A2217FA2D007DA04A /* BufferViewController.swift in Sources */,
+				65D777222217FA2D007DA04A /* ShaungxiangbangdingViewController.swift in Sources */,
+				65D777132217FA2D007DA04A /* UITableViewRefreshViewController.swift in Sources */,
+				65D777272217FA2D007DA04A /* URLSessionViewController.swift in Sources */,
 				65D7766D2217F8E1007DA04A /* AppDelegate.swift in Sources */,
+				65D7771C2217FA2D007DA04A /* UITableViewFiltrationViewController.swift in Sources */,
+				65D777162217FA2D007DA04A /* WeakSelfViewController.swift in Sources */,
+				65D777282217FA2D007DA04A /* RxAlamofireBasicViewController.swift in Sources */,
+				65D777142217FA2D007DA04A /* EditTabViewController.swift in Sources */,
+				65D777042217FA2D007DA04A /* UIGestureRecognizerViewController.swift in Sources */,
+				65D7770A2217FA2D007DA04A /* ExtensionLabelViewController.swift in Sources */,
+				65D7772D2217FA2D007DA04A /* UIActivityIndicatorViewAndUIApplicationViewController.swift in Sources */,
+				65D777022217FA2D007DA04A /* MaterializeViewController.swift in Sources */,
+				65D777322217FA2D007DA04A /* UITableViewDifferentViewController.swift in Sources */,
+				65D777102217FA2D007DA04A /* ToArrayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
