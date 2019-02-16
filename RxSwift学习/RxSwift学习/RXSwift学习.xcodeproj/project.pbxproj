@@ -67,6 +67,18 @@
 		65D777322217FA2D007DA04A /* UITableViewDifferentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776FD2217FA2C007DA04A /* UITableViewDifferentViewController.swift */; };
 		65D777332217FA2D007DA04A /* DifferentSwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776FE2217FA2C007DA04A /* DifferentSwitchTableViewCell.swift */; };
 		65D777342217FA2D007DA04A /* DifferentImageViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D776FF2217FA2C007DA04A /* DifferentImageViewTableViewCell.swift */; };
+		65D7773F2217FAE1007DA04A /* 多列UIPickerView.png in Resources */ = {isa = PBXBuildFile; fileRef = 65D777352217FADF007DA04A /* 多列UIPickerView.png */; };
+		65D777402217FAE1007DA04A /* 可编辑表格.png in Resources */ = {isa = PBXBuildFile; fileRef = 65D777362217FAE0007DA04A /* 可编辑表格.png */; };
+		65D777412217FAE1007DA04A /* 不同的cell显示.png in Resources */ = {isa = PBXBuildFile; fileRef = 65D777372217FAE0007DA04A /* 不同的cell显示.png */; };
+		65D777422217FAE1007DA04A /* 豆瓣数据请求.png in Resources */ = {isa = PBXBuildFile; fileRef = 65D777382217FAE0007DA04A /* 豆瓣数据请求.png */; };
+		65D777432217FAE1007DA04A /* 单列的UIPickerView.png in Resources */ = {isa = PBXBuildFile; fileRef = 65D777392217FAE0007DA04A /* 单列的UIPickerView.png */; };
+		65D777442217FAE1007DA04A /* 修改单元格高度.png in Resources */ = {isa = PBXBuildFile; fileRef = 65D7773A2217FAE0007DA04A /* 修改单元格高度.png */; };
+		65D777452217FAE1007DA04A /* 修改默认的样式UIPickerView.png in Resources */ = {isa = PBXBuildFile; fileRef = 65D7773B2217FAE0007DA04A /* 修改默认的样式UIPickerView.png */; };
+		65D777462217FAE1007DA04A /* 搜索框的tab.png in Resources */ = {isa = PBXBuildFile; fileRef = 65D7773C2217FAE1007DA04A /* 搜索框的tab.png */; };
+		65D777472217FAE1007DA04A /* 自定义双向绑定操作符（operator）.png in Resources */ = {isa = PBXBuildFile; fileRef = 65D7773D2217FAE1007DA04A /* 自定义双向绑定操作符（operator）.png */; };
+		65D777482217FAE1007DA04A /* 自定义UIPickerView.png in Resources */ = {isa = PBXBuildFile; fileRef = 65D7773E2217FAE1007DA04A /* 自定义UIPickerView.png */; };
+		65D7774A2217FB96007DA04A /* MoyaUseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D777492217FB96007DA04A /* MoyaUseViewController.swift */; };
+		65D7774C2218060C007DA04A /* DouBanAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D7774B2218060C007DA04A /* DouBanAPI.swift */; };
 		CDCAF233997F7318B17F87AE /* libPods-RXSwift学习.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5BBB67C7C4A0D91087A1FAC /* libPods-RXSwift学习.a */; };
 /* End PBXBuildFile section */
 
@@ -154,6 +166,18 @@
 		65D776FD2217FA2C007DA04A /* UITableViewDifferentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewDifferentViewController.swift; sourceTree = "<group>"; };
 		65D776FE2217FA2C007DA04A /* DifferentSwitchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DifferentSwitchTableViewCell.swift; sourceTree = "<group>"; };
 		65D776FF2217FA2C007DA04A /* DifferentImageViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DifferentImageViewTableViewCell.swift; sourceTree = "<group>"; };
+		65D777352217FADF007DA04A /* 多列UIPickerView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "多列UIPickerView.png"; sourceTree = "<group>"; };
+		65D777362217FAE0007DA04A /* 可编辑表格.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "可编辑表格.png"; sourceTree = "<group>"; };
+		65D777372217FAE0007DA04A /* 不同的cell显示.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "不同的cell显示.png"; sourceTree = "<group>"; };
+		65D777382217FAE0007DA04A /* 豆瓣数据请求.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "豆瓣数据请求.png"; sourceTree = "<group>"; };
+		65D777392217FAE0007DA04A /* 单列的UIPickerView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "单列的UIPickerView.png"; sourceTree = "<group>"; };
+		65D7773A2217FAE0007DA04A /* 修改单元格高度.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "修改单元格高度.png"; sourceTree = "<group>"; };
+		65D7773B2217FAE0007DA04A /* 修改默认的样式UIPickerView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "修改默认的样式UIPickerView.png"; sourceTree = "<group>"; };
+		65D7773C2217FAE1007DA04A /* 搜索框的tab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索框的tab.png"; sourceTree = "<group>"; };
+		65D7773D2217FAE1007DA04A /* 自定义双向绑定操作符（operator）.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "自定义双向绑定操作符（operator）.png"; sourceTree = "<group>"; };
+		65D7773E2217FAE1007DA04A /* 自定义UIPickerView.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "自定义UIPickerView.png"; sourceTree = "<group>"; };
+		65D777492217FB96007DA04A /* MoyaUseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaUseViewController.swift; sourceTree = "<group>"; };
+		65D7774B2218060C007DA04A /* DouBanAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouBanAPI.swift; sourceTree = "<group>"; };
 		90686447E2C47CEB69143743 /* Pods-RXSwift学习.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXSwift学习.release.xcconfig"; path = "Pods/Target Support Files/Pods-RXSwift学习/Pods-RXSwift学习.release.xcconfig"; sourceTree = "<group>"; };
 		DE383576E1ADA7BAAE24D2FF /* Pods-RXSwift学习.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXSwift学习.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RXSwift学习/Pods-RXSwift学习.debug.xcconfig"; sourceTree = "<group>"; };
 		F5BBB67C7C4A0D91087A1FAC /* libPods-RXSwift学习.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RXSwift学习.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -196,6 +220,16 @@
 		65D776602217F8E1007DA04A = {
 			isa = PBXGroup;
 			children = (
+				65D777372217FAE0007DA04A /* 不同的cell显示.png */,
+				65D777392217FAE0007DA04A /* 单列的UIPickerView.png */,
+				65D777382217FAE0007DA04A /* 豆瓣数据请求.png */,
+				65D777352217FADF007DA04A /* 多列UIPickerView.png */,
+				65D777362217FAE0007DA04A /* 可编辑表格.png */,
+				65D7773C2217FAE1007DA04A /* 搜索框的tab.png */,
+				65D7773A2217FAE0007DA04A /* 修改单元格高度.png */,
+				65D7773B2217FAE0007DA04A /* 修改默认的样式UIPickerView.png */,
+				65D7773D2217FAE1007DA04A /* 自定义双向绑定操作符（operator）.png */,
+				65D7773E2217FAE1007DA04A /* 自定义UIPickerView.png */,
 				65D7766B2217F8E1007DA04A /* RXSwift学习 */,
 				65D776802217F8E2007DA04A /* RXSwift学习Tests */,
 				65D7768B2217F8E2007DA04A /* RXSwift学习UITests */,
@@ -410,17 +444,9 @@
 		65D776B72217FA2A007DA04A /* 1.响应式编程与传统式编程的比较样例 */ = {
 			isa = PBXGroup;
 			children = (
-				65D776B82217FA2A007DA04A /* Controller */,
-			);
-			path = "1.响应式编程与传统式编程的比较样例";
-			sourceTree = "<group>";
-		};
-		65D776B82217FA2A007DA04A /* Controller */ = {
-			isa = PBXGroup;
-			children = (
 				65D776B92217FA2A007DA04A /* ObservableViewControllerCreate.swift */,
 			);
-			path = Controller;
+			path = "1.响应式编程与传统式编程的比较样例";
 			sourceTree = "<group>";
 		};
 		65D776BA2217FA2A007DA04A /* 11.算数&聚合操作符：toArray、reduce、concat */ = {
@@ -538,6 +564,8 @@
 		65D776D62217FA2B007DA04A /* 48.结合Moya使用1：数据请求 */ = {
 			isa = PBXGroup;
 			children = (
+				65D777492217FB96007DA04A /* MoyaUseViewController.swift */,
+				65D7774B2218060C007DA04A /* DouBanAPI.swift */,
 			);
 			path = "48.结合Moya使用1：数据请求";
 			sourceTree = "<group>";
@@ -805,9 +833,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65D777442217FAE1007DA04A /* 修改单元格高度.png in Resources */,
 				65D776772217F8E2007DA04A /* LaunchScreen.storyboard in Resources */,
+				65D777412217FAE1007DA04A /* 不同的cell显示.png in Resources */,
+				65D7773F2217FAE1007DA04A /* 多列UIPickerView.png in Resources */,
 				65D776742217F8E2007DA04A /* Assets.xcassets in Resources */,
+				65D777482217FAE1007DA04A /* 自定义UIPickerView.png in Resources */,
+				65D777462217FAE1007DA04A /* 搜索框的tab.png in Resources */,
 				65D776722217F8E1007DA04A /* Main.storyboard in Resources */,
+				65D777432217FAE1007DA04A /* 单列的UIPickerView.png in Resources */,
+				65D777472217FAE1007DA04A /* 自定义双向绑定操作符（operator）.png in Resources */,
+				65D777422217FAE1007DA04A /* 豆瓣数据请求.png in Resources */,
+				65D777452217FAE1007DA04A /* 修改默认的样式UIPickerView.png in Resources */,
+				65D777402217FAE1007DA04A /* 可编辑表格.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -863,6 +901,7 @@
 				65D7770E2217FA2D007DA04A /* ButtonAndBarButtonItemViewController.swift in Sources */,
 				65D777062217FA2D007DA04A /* BasicCollectionViewViewController.swift in Sources */,
 				65D777082217FA2D007DA04A /* RxAlamofireUsefourViewController.swift in Sources */,
+				65D7774C2218060C007DA04A /* DouBanAPI.swift in Sources */,
 				65D7772B2217FA2D007DA04A /* ConditionalAndBooleanOperatorsViewController.swift in Sources */,
 				65D777092217FA2D007DA04A /* UISwitchUISegmentedControlViewController.swift in Sources */,
 				65D777052217FA2D007DA04A /* BasicCollectionViewCell.swift in Sources */,
@@ -893,6 +932,7 @@
 				65D7770F2217FA2D007DA04A /* ObservableViewControllerCreate.swift in Sources */,
 				65D777232217FA2D007DA04A /* Operators.swift in Sources */,
 				65D777192217FA2D007DA04A /* RxAlamofireUseViewController.swift in Sources */,
+				65D7774A2217FB96007DA04A /* MoyaUseViewController.swift in Sources */,
 				65D7771A2217FA2D007DA04A /* BufferViewController.swift in Sources */,
 				65D777222217FA2D007DA04A /* ShaungxiangbangdingViewController.swift in Sources */,
 				65D777132217FA2D007DA04A /* UITableViewRefreshViewController.swift in Sources */,
@@ -1085,6 +1125,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "RXSwift学习/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1103,6 +1144,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "RXSwift学习/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

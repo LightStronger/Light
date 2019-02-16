@@ -6,4 +6,7 @@ target 'RXSwift学习' do
   pod 'RxDataSources'
   pod 'ObjectMapper'
   pod 'RxAlamofire'
+  pod 'Moya/RxSwift'
+  pod 'SwiftyJSON'
+  pod 'Result'
 end
