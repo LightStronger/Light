@@ -1,0 +1,9 @@
+platform :ios, '9.0'
+
+target 'RXSwift学习' do 
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'RxDataSources'
+  pod 'ObjectMapper'
+  pod 'RxAlamofire'
+end
