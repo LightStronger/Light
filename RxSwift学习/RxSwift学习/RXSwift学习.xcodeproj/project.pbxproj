@@ -7,6 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6528CD98221A44EF004F10CD /* MoyaUseTwoWayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6528CD97221A44EF004F10CD /* MoyaUseTwoWayViewController.swift */; };
+		6528CD9A221A47A5004F10CD /* 结合Moya使用2：结果处理、模型转换。png.png in Resources */ = {isa = PBXBuildFile; fileRef = 6528CD99221A47A5004F10CD /* 结合Moya使用2：结果处理、模型转换。png.png */; };
+		6528CDA2221A59A4004F10CD /* ObservableType+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6528CD9D221A59A4004F10CD /* ObservableType+ObjectMapper.swift */; };
+		6528CDA3221A59A4004F10CD /* Single+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6528CD9E221A59A4004F10CD /* Single+ObjectMapper.swift */; };
+		6528CDA5221A59A4004F10CD /* Response+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6528CDA1221A59A4004F10CD /* Response+ObjectMapper.swift */; };
+		6528CDA7221A5BA2004F10CD /* ObjectMapperAndMoyaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6528CDA6221A5BA2004F10CD /* ObjectMapperAndMoyaViewController.swift */; };
+		6528CDA9221A82C8004F10CD /* ObjectMapperNetPerfection ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6528CDA8221A82C8004F10CD /* ObjectMapperNetPerfection ViewController.swift */; };
+		6528CDAB221A869F004F10CD /* DouBanNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6528CDAA221A869F004F10CD /* DouBanNetworkService.swift */; };
+		6528CDAE221A9352004F10CD /* MBProgressHUDUseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6528CDAD221A9352004F10CD /* MBProgressHUDUseViewController.swift */; };
+		6528CDB8221A9508004F10CD /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6528CDB6221A9508004F10CD /* MBProgressHUD.m */; };
+		6528CDC3221AA336004F10CD /* 环形进度条.png in Resources */ = {isa = PBXBuildFile; fileRef = 6528CDBF221AA335004F10CD /* 环形进度条.png */; };
+		6528CDC4221AA336004F10CD /* 饼状进度条.png in Resources */ = {isa = PBXBuildFile; fileRef = 6528CDC0221AA335004F10CD /* 饼状进度条.png */; };
+		6528CDC5221AA336004F10CD /* 带进度的提示框.png in Resources */ = {isa = PBXBuildFile; fileRef = 6528CDC1221AA335004F10CD /* 带进度的提示框.png */; };
+		6528CDC6221AA336004F10CD /* 菊花 + 文字标题 + 详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 6528CDC2221AA335004F10CD /* 菊花 + 文字标题 + 详情.png */; };
+		6528CDC9221AA340004F10CD /* 菊花 + 文字.png in Resources */ = {isa = PBXBuildFile; fileRef = 6528CDC7221AA33F004F10CD /* 菊花 + 文字.png */; };
+		6528CDCA221AA340004F10CD /* 纯文字标题 + 详情.png in Resources */ = {isa = PBXBuildFile; fileRef = 6528CDC8221AA33F004F10CD /* 纯文字标题 + 详情.png */; };
+		6528CDCD221AA34E004F10CD /* 菊花.png in Resources */ = {isa = PBXBuildFile; fileRef = 6528CDCB221AA34D004F10CD /* 菊花.png */; };
+		6528CDCE221AA34E004F10CD /* 纯文字.png in Resources */ = {isa = PBXBuildFile; fileRef = 6528CDCC221AA34E004F10CD /* 纯文字.png */; };
+		6528CDD1221AACB6004F10CD /* MBProgressHUDUseTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6528CDD0221AACB6004F10CD /* MBProgressHUDUseTwoViewController.swift */; };
+		6528CDD3221AAE79004F10CD /* 毛玻璃遮罩.png in Resources */ = {isa = PBXBuildFile; fileRef = 6528CDD2221AAE79004F10CD /* 毛玻璃遮罩.png */; };
+		6528CDD5221AAF99004F10CD /* 提示框圆角值.png in Resources */ = {isa = PBXBuildFile; fileRef = 6528CDD4221AAF99004F10CD /* 提示框圆角值.png */; };
+		6528CDD7221AB0E1004F10CD /* 文字的颜色和字体.png in Resources */ = {isa = PBXBuildFile; fileRef = 6528CDD6221AB0E1004F10CD /* 文字的颜色和字体.png */; };
+		6528CDD9221AB269004F10CD /* 提示框偏移量.png in Resources */ = {isa = PBXBuildFile; fileRef = 6528CDD8221AB269004F10CD /* 提示框偏移量.png */; };
+		6528CDDB221AB31F004F10CD /* 提示框内边距.png in Resources */ = {isa = PBXBuildFile; fileRef = 6528CDDA221AB31E004F10CD /* 提示框内边距.png */; };
+		6528CDDD221AB3DE004F10CD /* 提示框的最小尺寸.png in Resources */ = {isa = PBXBuildFile; fileRef = 6528CDDC221AB3DE004F10CD /* 提示框的最小尺寸.png */; };
+		6528CDDF221AB77D004F10CD /* 提示框中显示一个“打勾”的图标.png in Resources */ = {isa = PBXBuildFile; fileRef = 6528CDDE221AB77C004F10CD /* 提示框中显示一个“打勾”的图标.png */; };
 		65D7766D2217F8E1007DA04A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D7766C2217F8E1007DA04A /* AppDelegate.swift */; };
 		65D7766F2217F8E1007DA04A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D7766E2217F8E1007DA04A /* ViewController.swift */; };
 		65D776722217F8E1007DA04A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D776702217F8E1007DA04A /* Main.storyboard */; };
@@ -100,6 +126,34 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6528CD97221A44EF004F10CD /* MoyaUseTwoWayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaUseTwoWayViewController.swift; sourceTree = "<group>"; };
+		6528CD99221A47A5004F10CD /* 结合Moya使用2：结果处理、模型转换。png.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "结合Moya使用2：结果处理、模型转换。png.png"; sourceTree = "<group>"; };
+		6528CD9D221A59A4004F10CD /* ObservableType+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ObservableType+ObjectMapper.swift"; sourceTree = "<group>"; };
+		6528CD9E221A59A4004F10CD /* Single+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Single+ObjectMapper.swift"; sourceTree = "<group>"; };
+		6528CDA1221A59A4004F10CD /* Response+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Response+ObjectMapper.swift"; sourceTree = "<group>"; };
+		6528CDA6221A5BA2004F10CD /* ObjectMapperAndMoyaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectMapperAndMoyaViewController.swift; sourceTree = "<group>"; };
+		6528CDA8221A82C8004F10CD /* ObjectMapperNetPerfection ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObjectMapperNetPerfection ViewController.swift"; sourceTree = "<group>"; };
+		6528CDAA221A869F004F10CD /* DouBanNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouBanNetworkService.swift; sourceTree = "<group>"; };
+		6528CDAD221A9352004F10CD /* MBProgressHUDUseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBProgressHUDUseViewController.swift; sourceTree = "<group>"; };
+		6528CDB6221A9508004F10CD /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		6528CDB7221A9508004F10CD /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		6528CDBE221A9A0B004F10CD /* Swift-Brige-Objecctive-C.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift-Brige-Objecctive-C.h"; sourceTree = "<group>"; };
+		6528CDBF221AA335004F10CD /* 环形进度条.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "环形进度条.png"; sourceTree = "<group>"; };
+		6528CDC0221AA335004F10CD /* 饼状进度条.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "饼状进度条.png"; sourceTree = "<group>"; };
+		6528CDC1221AA335004F10CD /* 带进度的提示框.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "带进度的提示框.png"; sourceTree = "<group>"; };
+		6528CDC2221AA335004F10CD /* 菊花 + 文字标题 + 详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "菊花 + 文字标题 + 详情.png"; sourceTree = "<group>"; };
+		6528CDC7221AA33F004F10CD /* 菊花 + 文字.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "菊花 + 文字.png"; sourceTree = "<group>"; };
+		6528CDC8221AA33F004F10CD /* 纯文字标题 + 详情.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "纯文字标题 + 详情.png"; sourceTree = "<group>"; };
+		6528CDCB221AA34D004F10CD /* 菊花.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "菊花.png"; sourceTree = "<group>"; };
+		6528CDCC221AA34E004F10CD /* 纯文字.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "纯文字.png"; sourceTree = "<group>"; };
+		6528CDD0221AACB6004F10CD /* MBProgressHUDUseTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBProgressHUDUseTwoViewController.swift; sourceTree = "<group>"; };
+		6528CDD2221AAE79004F10CD /* 毛玻璃遮罩.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "毛玻璃遮罩.png"; sourceTree = "<group>"; };
+		6528CDD4221AAF99004F10CD /* 提示框圆角值.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提示框圆角值.png"; sourceTree = "<group>"; };
+		6528CDD6221AB0E1004F10CD /* 文字的颜色和字体.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "文字的颜色和字体.png"; sourceTree = "<group>"; };
+		6528CDD8221AB269004F10CD /* 提示框偏移量.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提示框偏移量.png"; sourceTree = "<group>"; };
+		6528CDDA221AB31E004F10CD /* 提示框内边距.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提示框内边距.png"; sourceTree = "<group>"; };
+		6528CDDC221AB3DE004F10CD /* 提示框的最小尺寸.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提示框的最小尺寸.png"; sourceTree = "<group>"; };
+		6528CDDE221AB77C004F10CD /* 提示框中显示一个“打勾”的图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提示框中显示一个“打勾”的图标.png"; sourceTree = "<group>"; };
 		65D776692217F8E1007DA04A /* RXSwift学习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RXSwift学习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D7766C2217F8E1007DA04A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65D7766E2217F8E1007DA04A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -217,9 +271,73 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		6528CD96221A44CF004F10CD /* 49.结合Moya使用2：结果处理、模型转换 */ = {
+			isa = PBXGroup;
+			children = (
+				6528CD97221A44EF004F10CD /* MoyaUseTwoWayViewController.swift */,
+				6528CDA6221A5BA2004F10CD /* ObjectMapperAndMoyaViewController.swift */,
+				6528CDA8221A82C8004F10CD /* ObjectMapperNetPerfection ViewController.swift */,
+				6528CDAA221A869F004F10CD /* DouBanNetworkService.swift */,
+			);
+			path = "49.结合Moya使用2：结果处理、模型转换";
+			sourceTree = "<group>";
+		};
+		6528CD9B221A59A4004F10CD /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				6528CDB5221A9508004F10CD /* MBPUD */,
+				6528CD9C221A59A4004F10CD /* RxSwift */,
+			);
+			path = Source;
+			sourceTree = SOURCE_ROOT;
+		};
+		6528CD9C221A59A4004F10CD /* RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				6528CDA1221A59A4004F10CD /* Response+ObjectMapper.swift */,
+				6528CD9D221A59A4004F10CD /* ObservableType+ObjectMapper.swift */,
+				6528CD9E221A59A4004F10CD /* Single+ObjectMapper.swift */,
+			);
+			path = RxSwift;
+			sourceTree = "<group>";
+		};
+		6528CDAC221A9340004F10CD /* 50.第三方透明指示器MBProgressHUD使用详解1（安装配置、基本用法） */ = {
+			isa = PBXGroup;
+			children = (
+				6528CDAD221A9352004F10CD /* MBProgressHUDUseViewController.swift */,
+			);
+			path = "50.第三方透明指示器MBProgressHUD使用详解1（安装配置、基本用法）";
+			sourceTree = "<group>";
+		};
+		6528CDB5221A9508004F10CD /* MBPUD */ = {
+			isa = PBXGroup;
+			children = (
+				6528CDB6221A9508004F10CD /* MBProgressHUD.m */,
+				6528CDB7221A9508004F10CD /* MBProgressHUD.h */,
+			);
+			path = MBPUD;
+			sourceTree = "<group>";
+		};
+		6528CDCF221AAC7B004F10CD /* 51.第三方透明指示器MBProgressHUD使用详解2（样式修改、自定义视图） */ = {
+			isa = PBXGroup;
+			children = (
+				6528CDD0221AACB6004F10CD /* MBProgressHUDUseTwoViewController.swift */,
+			);
+			path = "51.第三方透明指示器MBProgressHUD使用详解2（样式修改、自定义视图）";
+			sourceTree = "<group>";
+		};
 		65D776602217F8E1007DA04A = {
 			isa = PBXGroup;
 			children = (
+				6528CDCC221AA34E004F10CD /* 纯文字.png */,
+				6528CDCB221AA34D004F10CD /* 菊花.png */,
+				6528CDC8221AA33F004F10CD /* 纯文字标题 + 详情.png */,
+				6528CDC7221AA33F004F10CD /* 菊花 + 文字.png */,
+				6528CDC0221AA335004F10CD /* 饼状进度条.png */,
+				6528CDC1221AA335004F10CD /* 带进度的提示框.png */,
+				6528CDBF221AA335004F10CD /* 环形进度条.png */,
+				6528CDC2221AA335004F10CD /* 菊花 + 文字标题 + 详情.png */,
+				6528CD99221A47A5004F10CD /* 结合Moya使用2：结果处理、模型转换。png.png */,
 				65D777372217FAE0007DA04A /* 不同的cell显示.png */,
 				65D777392217FAE0007DA04A /* 单列的UIPickerView.png */,
 				65D777382217FAE0007DA04A /* 豆瓣数据请求.png */,
@@ -230,6 +348,13 @@
 				65D7773B2217FAE0007DA04A /* 修改默认的样式UIPickerView.png */,
 				65D7773D2217FAE1007DA04A /* 自定义双向绑定操作符（operator）.png */,
 				65D7773E2217FAE1007DA04A /* 自定义UIPickerView.png */,
+				6528CDD2221AAE79004F10CD /* 毛玻璃遮罩.png */,
+				6528CDD4221AAF99004F10CD /* 提示框圆角值.png */,
+				6528CDD6221AB0E1004F10CD /* 文字的颜色和字体.png */,
+				6528CDD8221AB269004F10CD /* 提示框偏移量.png */,
+				6528CDDA221AB31E004F10CD /* 提示框内边距.png */,
+				6528CDDC221AB3DE004F10CD /* 提示框的最小尺寸.png */,
+				6528CDDE221AB77C004F10CD /* 提示框中显示一个“打勾”的图标.png */,
 				65D7766B2217F8E1007DA04A /* RXSwift学习 */,
 				65D776802217F8E2007DA04A /* RXSwift学习Tests */,
 				65D7768B2217F8E2007DA04A /* RXSwift学习UITests */,
@@ -252,6 +377,9 @@
 		65D7766B2217F8E1007DA04A /* RXSwift学习 */ = {
 			isa = PBXGroup;
 			children = (
+				6528CDCF221AAC7B004F10CD /* 51.第三方透明指示器MBProgressHUD使用详解2（样式修改、自定义视图） */,
+				6528CDAC221A9340004F10CD /* 50.第三方透明指示器MBProgressHUD使用详解1（安装配置、基本用法） */,
+				6528CD96221A44CF004F10CD /* 49.结合Moya使用2：结果处理、模型转换 */,
 				65D776B72217FA2A007DA04A /* 1.响应式编程与传统式编程的比较样例 */,
 				65D776EC2217FA2C007DA04A /* 2.Observable介绍、创建可观察序列 */,
 				65D776D02217FA2B007DA04A /* 3.Observable订阅、事件监听、订阅销毁 */,
@@ -300,8 +428,10 @@
 				65D776CC2217FA2A007DA04A /* 46.结合RxAlamofire使用3：文件上传 */,
 				65D776A92217FA29007DA04A /* 47.结合RxAlamofire使用4：文件下载 */,
 				65D776D62217FA2B007DA04A /* 48.结合Moya使用1：数据请求 */,
+				6528CD9B221A59A4004F10CD /* Source */,
 				65D7766C2217F8E1007DA04A /* AppDelegate.swift */,
 				65D7766E2217F8E1007DA04A /* ViewController.swift */,
+				6528CDBE221A9A0B004F10CD /* Swift-Brige-Objecctive-C.h */,
 				65D776702217F8E1007DA04A /* Main.storyboard */,
 				65D776732217F8E2007DA04A /* Assets.xcassets */,
 				65D776752217F8E2007DA04A /* LaunchScreen.storyboard */,
@@ -833,19 +963,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6528CDC4221AA336004F10CD /* 饼状进度条.png in Resources */,
+				6528CDD5221AAF99004F10CD /* 提示框圆角值.png in Resources */,
+				6528CDD9221AB269004F10CD /* 提示框偏移量.png in Resources */,
+				6528CDD7221AB0E1004F10CD /* 文字的颜色和字体.png in Resources */,
 				65D777442217FAE1007DA04A /* 修改单元格高度.png in Resources */,
 				65D776772217F8E2007DA04A /* LaunchScreen.storyboard in Resources */,
 				65D777412217FAE1007DA04A /* 不同的cell显示.png in Resources */,
 				65D7773F2217FAE1007DA04A /* 多列UIPickerView.png in Resources */,
 				65D776742217F8E2007DA04A /* Assets.xcassets in Resources */,
+				6528CDC3221AA336004F10CD /* 环形进度条.png in Resources */,
 				65D777482217FAE1007DA04A /* 自定义UIPickerView.png in Resources */,
 				65D777462217FAE1007DA04A /* 搜索框的tab.png in Resources */,
 				65D776722217F8E1007DA04A /* Main.storyboard in Resources */,
 				65D777432217FAE1007DA04A /* 单列的UIPickerView.png in Resources */,
+				6528CD9A221A47A5004F10CD /* 结合Moya使用2：结果处理、模型转换。png.png in Resources */,
+				6528CDC5221AA336004F10CD /* 带进度的提示框.png in Resources */,
+				6528CDDD221AB3DE004F10CD /* 提示框的最小尺寸.png in Resources */,
+				6528CDDF221AB77D004F10CD /* 提示框中显示一个“打勾”的图标.png in Resources */,
 				65D777472217FAE1007DA04A /* 自定义双向绑定操作符（operator）.png in Resources */,
 				65D777422217FAE1007DA04A /* 豆瓣数据请求.png in Resources */,
 				65D777452217FAE1007DA04A /* 修改默认的样式UIPickerView.png in Resources */,
+				6528CDCD221AA34E004F10CD /* 菊花.png in Resources */,
+				6528CDC9221AA340004F10CD /* 菊花 + 文字.png in Resources */,
+				6528CDDB221AB31F004F10CD /* 提示框内边距.png in Resources */,
+				6528CDC6221AA336004F10CD /* 菊花 + 文字标题 + 详情.png in Resources */,
 				65D777402217FAE1007DA04A /* 可编辑表格.png in Resources */,
+				6528CDD3221AAE79004F10CD /* 毛玻璃遮罩.png in Resources */,
+				6528CDCA221AA340004F10CD /* 纯文字标题 + 详情.png in Resources */,
+				6528CDCE221AA34E004F10CD /* 纯文字.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -892,6 +1038,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				65D7770B2217FA2D007DA04A /* FilterViewController.swift in Sources */,
+				6528CDA3221A59A4004F10CD /* Single+ObjectMapper.swift in Sources */,
 				65D777202217FA2D007DA04A /* MyCollectionViewCell.swift in Sources */,
 				65D7771F2217FA2D007DA04A /* UICollectionRxDataSourcesViewController.swift in Sources */,
 				65D777332217FA2D007DA04A /* DifferentSwitchTableViewCell.swift in Sources */,
@@ -904,6 +1051,7 @@
 				65D7774C2218060C007DA04A /* DouBanAPI.swift in Sources */,
 				65D7772B2217FA2D007DA04A /* ConditionalAndBooleanOperatorsViewController.swift in Sources */,
 				65D777092217FA2D007DA04A /* UISwitchUISegmentedControlViewController.swift in Sources */,
+				6528CDD1221AACB6004F10CD /* MBProgressHUDUseTwoViewController.swift in Sources */,
 				65D777052217FA2D007DA04A /* BasicCollectionViewCell.swift in Sources */,
 				65D7770C2217FA2D007DA04A /* SingleViewController.swift in Sources */,
 				65D777262217FA2D007DA04A /* UICollectionViewStyleEditViewController.swift in Sources */,
@@ -914,23 +1062,30 @@
 				65D777012217FA2D007DA04A /* SubjectsViewController.swift in Sources */,
 				65D7772A2217FA2D007DA04A /* OrderObservableViewController.swift in Sources */,
 				65D777302217FA2D007DA04A /* UICollectionRefreshViewController.swift in Sources */,
+				6528CDA7221A5BA2004F10CD /* ObjectMapperAndMoyaViewController.swift in Sources */,
 				65D777312217FA2D007DA04A /* UITableViewExchangeViewController.swift in Sources */,
 				65D777242217FA2D007DA04A /* SelfObservableViewController.swift in Sources */,
 				65D777252217FA2D007DA04A /* DriverViewController.swift in Sources */,
 				65D7766F2217F8E1007DA04A /* ViewController.swift in Sources */,
 				65D777032217FA2D007DA04A /* ConnectViewController.swift in Sources */,
 				65D777342217FA2D007DA04A /* DifferentImageViewTableViewCell.swift in Sources */,
+				6528CD98221A44EF004F10CD /* MoyaUseTwoWayViewController.swift in Sources */,
 				65D7771B2217FA2D007DA04A /* ObservableViewController.swift in Sources */,
+				6528CDA9221A82C8004F10CD /* ObjectMapperNetPerfection ViewController.swift in Sources */,
 				65D7772F2217FA2D007DA04A /* StartWithViewController.swift in Sources */,
 				65D777122217FA2D007DA04A /* UITableViewUserdViewController.swift in Sources */,
 				65D777072217FA2D007DA04A /* RxAlamofireResultViewController.swift in Sources */,
+				6528CDB8221A9508004F10CD /* MBProgressHUD.m in Sources */,
 				65D777212217FA2D007DA04A /* MySectionHeader.swift in Sources */,
 				65D777112217FA2D007DA04A /* SubscribeOnViewController.swift in Sources */,
 				65D7772C2217FA2D007DA04A /* TabRxDataSourcesViewController.swift in Sources */,
 				65D7770D2217FA2D007DA04A /* ControlPropertyViewController.swift in Sources */,
+				6528CDAE221A9352004F10CD /* MBProgressHUDUseViewController.swift in Sources */,
+				6528CDAB221A869F004F10CD /* DouBanNetworkService.swift in Sources */,
 				65D777172217FA2D007DA04A /* ErrorHandlingOperatorsViewController.swift in Sources */,
 				65D7770F2217FA2D007DA04A /* ObservableViewControllerCreate.swift in Sources */,
 				65D777232217FA2D007DA04A /* Operators.swift in Sources */,
+				6528CDA2221A59A4004F10CD /* ObservableType+ObjectMapper.swift in Sources */,
 				65D777192217FA2D007DA04A /* RxAlamofireUseViewController.swift in Sources */,
 				65D7774A2217FB96007DA04A /* MoyaUseViewController.swift in Sources */,
 				65D7771A2217FA2D007DA04A /* BufferViewController.swift in Sources */,
@@ -938,6 +1093,7 @@
 				65D777132217FA2D007DA04A /* UITableViewRefreshViewController.swift in Sources */,
 				65D777272217FA2D007DA04A /* URLSessionViewController.swift in Sources */,
 				65D7766D2217F8E1007DA04A /* AppDelegate.swift in Sources */,
+				6528CDA5221A59A4004F10CD /* Response+ObjectMapper.swift in Sources */,
 				65D7771C2217FA2D007DA04A /* UITableViewFiltrationViewController.swift in Sources */,
 				65D777162217FA2D007DA04A /* WeakSelfViewController.swift in Sources */,
 				65D777282217FA2D007DA04A /* RxAlamofireBasicViewController.swift in Sources */,
@@ -1132,6 +1288,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.goldenluch.sports.RXSwift--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RXSwift学习/Swift-Brige-Objecctive-C.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1151,6 +1308,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.goldenluch.sports.RXSwift--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RXSwift学习/Swift-Brige-Objecctive-C.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
