@@ -33,6 +33,15 @@
 		6528CDDB221AB31F004F10CD /* 提示框内边距.png in Resources */ = {isa = PBXBuildFile; fileRef = 6528CDDA221AB31E004F10CD /* 提示框内边距.png */; };
 		6528CDDD221AB3DE004F10CD /* 提示框的最小尺寸.png in Resources */ = {isa = PBXBuildFile; fileRef = 6528CDDC221AB3DE004F10CD /* 提示框的最小尺寸.png */; };
 		6528CDDF221AB77D004F10CD /* 提示框中显示一个“打勾”的图标.png in Resources */ = {isa = PBXBuildFile; fileRef = 6528CDDE221AB77C004F10CD /* 提示框中显示一个“打勾”的图标.png */; };
+		658ADD56224CBE67003F989B /* MBProgressHUDExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658ADD55224CBE67003F989B /* MBProgressHUDExtension.swift */; };
+		658ADD58224CC3DD003F989B /* 52.png in Resources */ = {isa = PBXBuildFile; fileRef = 658ADD57224CC3DD003F989B /* 52.png */; };
+		658ADD5A224CC54E003F989B /* MbExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658ADD59224CC54E003F989B /* MbExtensionViewController.swift */; };
+		658ADD5D224CC6BF003F989B /* SwiftNoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658ADD5C224CC6BF003F989B /* SwiftNoticeViewController.swift */; };
+		658ADD86224CC885003F989B /* SwiftNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658ADD85224CC885003F989B /* SwiftNotice.swift */; };
+		658ADD88224CCDEF003F989B /* 53.顶部通知消息.png in Resources */ = {isa = PBXBuildFile; fileRef = 658ADD87224CCDEF003F989B /* 53.顶部通知消息.png */; };
+		658ADD8B224CD644003F989B /* MVVMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658ADD8A224CD644003F989B /* MVVMViewController.swift */; };
+		658ADD8F224CD90F003F989B /* SignalProducer+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658ADD8D224CD90F003F989B /* SignalProducer+ObjectMapper.swift */; };
+		658ADD90224CD90F003F989B /* Response+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658ADD8E224CD90F003F989B /* Response+ObjectMapper.swift */; };
 		65D7766D2217F8E1007DA04A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D7766C2217F8E1007DA04A /* AppDelegate.swift */; };
 		65D7766F2217F8E1007DA04A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D7766E2217F8E1007DA04A /* ViewController.swift */; };
 		65D776722217F8E1007DA04A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D776702217F8E1007DA04A /* Main.storyboard */; };
@@ -154,6 +163,15 @@
 		6528CDDA221AB31E004F10CD /* 提示框内边距.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提示框内边距.png"; sourceTree = "<group>"; };
 		6528CDDC221AB3DE004F10CD /* 提示框的最小尺寸.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提示框的最小尺寸.png"; sourceTree = "<group>"; };
 		6528CDDE221AB77C004F10CD /* 提示框中显示一个“打勾”的图标.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "提示框中显示一个“打勾”的图标.png"; sourceTree = "<group>"; };
+		658ADD55224CBE67003F989B /* MBProgressHUDExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBProgressHUDExtension.swift; sourceTree = "<group>"; };
+		658ADD57224CC3DD003F989B /* 52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 52.png; sourceTree = "<group>"; };
+		658ADD59224CC54E003F989B /* MbExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MbExtensionViewController.swift; sourceTree = "<group>"; };
+		658ADD5C224CC6BF003F989B /* SwiftNoticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNoticeViewController.swift; sourceTree = "<group>"; };
+		658ADD85224CC885003F989B /* SwiftNotice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftNotice.swift; sourceTree = "<group>"; };
+		658ADD87224CCDEF003F989B /* 53.顶部通知消息.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "53.顶部通知消息.png"; sourceTree = "<group>"; };
+		658ADD8A224CD644003F989B /* MVVMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewController.swift; sourceTree = "<group>"; };
+		658ADD8D224CD90F003F989B /* SignalProducer+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SignalProducer+ObjectMapper.swift"; sourceTree = "<group>"; };
+		658ADD8E224CD90F003F989B /* Response+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Response+ObjectMapper.swift"; sourceTree = "<group>"; };
 		65D776692217F8E1007DA04A /* RXSwift学习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RXSwift学习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D7766C2217F8E1007DA04A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65D7766E2217F8E1007DA04A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -285,6 +303,9 @@
 		6528CD9B221A59A4004F10CD /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				658ADD8C224CD90F003F989B /* ReactiveSwift */,
+				658ADD8E224CD90F003F989B /* Response+ObjectMapper.swift */,
+				658ADD85224CC885003F989B /* SwiftNotice.swift */,
 				6528CDB5221A9508004F10CD /* MBPUD */,
 				6528CD9C221A59A4004F10CD /* RxSwift */,
 			);
@@ -326,9 +347,35 @@
 			path = "51.第三方透明指示器MBProgressHUD使用详解2（样式修改、自定义视图）";
 			sourceTree = "<group>";
 		};
+		658ADD5B224CC67B003F989B /* 53.第三方透明指示器SwiftNotice使用详解 */ = {
+			isa = PBXGroup;
+			children = (
+				658ADD5C224CC6BF003F989B /* SwiftNoticeViewController.swift */,
+			);
+			path = "53.第三方透明指示器SwiftNotice使用详解";
+			sourceTree = "<group>";
+		};
+		658ADD89224CD084003F989B /* 54.RxSwift的使用详解（MVVM架构演示1：基本介绍、与MVC比较） */ = {
+			isa = PBXGroup;
+			children = (
+				658ADD8A224CD644003F989B /* MVVMViewController.swift */,
+			);
+			path = "54.RxSwift的使用详解（MVVM架构演示1：基本介绍、与MVC比较）";
+			sourceTree = "<group>";
+		};
+		658ADD8C224CD90F003F989B /* ReactiveSwift */ = {
+			isa = PBXGroup;
+			children = (
+				658ADD8D224CD90F003F989B /* SignalProducer+ObjectMapper.swift */,
+			);
+			path = ReactiveSwift;
+			sourceTree = "<group>";
+		};
 		65D776602217F8E1007DA04A = {
 			isa = PBXGroup;
 			children = (
+				658ADD87224CCDEF003F989B /* 53.顶部通知消息.png */,
+				658ADD57224CC3DD003F989B /* 52.png */,
 				6528CDCC221AA34E004F10CD /* 纯文字.png */,
 				6528CDCB221AA34D004F10CD /* 菊花.png */,
 				6528CDC8221AA33F004F10CD /* 纯文字标题 + 详情.png */,
@@ -377,6 +424,9 @@
 		65D7766B2217F8E1007DA04A /* RXSwift学习 */ = {
 			isa = PBXGroup;
 			children = (
+				658ADD89224CD084003F989B /* 54.RxSwift的使用详解（MVVM架构演示1：基本介绍、与MVC比较） */,
+				658ADD5B224CC67B003F989B /* 53.第三方透明指示器SwiftNotice使用详解 */,
+				65FF5AA2224B83AE00687644 /* 52.第三方透明指示器MBProgressHUD使用详解3（封装常用方法） */,
 				6528CDCF221AAC7B004F10CD /* 51.第三方透明指示器MBProgressHUD使用详解2（样式修改、自定义视图） */,
 				6528CDAC221A9340004F10CD /* 50.第三方透明指示器MBProgressHUD使用详解1（安装配置、基本用法） */,
 				6528CD96221A44CF004F10CD /* 49.结合Moya使用2：结果处理、模型转换 */,
@@ -849,6 +899,15 @@
 			path = "34.UITableView的使用6：不同类型的单元格混用";
 			sourceTree = "<group>";
 		};
+		65FF5AA2224B83AE00687644 /* 52.第三方透明指示器MBProgressHUD使用详解3（封装常用方法） */ = {
+			isa = PBXGroup;
+			children = (
+				658ADD55224CBE67003F989B /* MBProgressHUDExtension.swift */,
+				658ADD59224CC54E003F989B /* MbExtensionViewController.swift */,
+			);
+			path = "52.第三方透明指示器MBProgressHUD使用详解3（封装常用方法）";
+			sourceTree = "<group>";
+		};
 		CDED46482514C367C0384CA6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -973,11 +1032,13 @@
 				65D7773F2217FAE1007DA04A /* 多列UIPickerView.png in Resources */,
 				65D776742217F8E2007DA04A /* Assets.xcassets in Resources */,
 				6528CDC3221AA336004F10CD /* 环形进度条.png in Resources */,
+				658ADD58224CC3DD003F989B /* 52.png in Resources */,
 				65D777482217FAE1007DA04A /* 自定义UIPickerView.png in Resources */,
 				65D777462217FAE1007DA04A /* 搜索框的tab.png in Resources */,
 				65D776722217F8E1007DA04A /* Main.storyboard in Resources */,
 				65D777432217FAE1007DA04A /* 单列的UIPickerView.png in Resources */,
 				6528CD9A221A47A5004F10CD /* 结合Moya使用2：结果处理、模型转换。png.png in Resources */,
+				658ADD88224CCDEF003F989B /* 53.顶部通知消息.png in Resources */,
 				6528CDC5221AA336004F10CD /* 带进度的提示框.png in Resources */,
 				6528CDDD221AB3DE004F10CD /* 提示框的最小尺寸.png in Resources */,
 				6528CDDF221AB77D004F10CD /* 提示框中显示一个“打勾”的图标.png in Resources */,
@@ -1039,6 +1100,7 @@
 			files = (
 				65D7770B2217FA2D007DA04A /* FilterViewController.swift in Sources */,
 				6528CDA3221A59A4004F10CD /* Single+ObjectMapper.swift in Sources */,
+				658ADD8F224CD90F003F989B /* SignalProducer+ObjectMapper.swift in Sources */,
 				65D777202217FA2D007DA04A /* MyCollectionViewCell.swift in Sources */,
 				65D7771F2217FA2D007DA04A /* UICollectionRxDataSourcesViewController.swift in Sources */,
 				65D777332217FA2D007DA04A /* DifferentSwitchTableViewCell.swift in Sources */,
@@ -1046,8 +1108,11 @@
 				65D777002217FA2D007DA04A /* DebugViewController.swift in Sources */,
 				65D7772E2217FA2D007DA04A /* ModelViewController.swift in Sources */,
 				65D7770E2217FA2D007DA04A /* ButtonAndBarButtonItemViewController.swift in Sources */,
+				658ADD56224CBE67003F989B /* MBProgressHUDExtension.swift in Sources */,
+				658ADD86224CC885003F989B /* SwiftNotice.swift in Sources */,
 				65D777062217FA2D007DA04A /* BasicCollectionViewViewController.swift in Sources */,
 				65D777082217FA2D007DA04A /* RxAlamofireUsefourViewController.swift in Sources */,
+				658ADD5D224CC6BF003F989B /* SwiftNoticeViewController.swift in Sources */,
 				65D7774C2218060C007DA04A /* DouBanAPI.swift in Sources */,
 				65D7772B2217FA2D007DA04A /* ConditionalAndBooleanOperatorsViewController.swift in Sources */,
 				65D777092217FA2D007DA04A /* UISwitchUISegmentedControlViewController.swift in Sources */,
@@ -1066,6 +1131,7 @@
 				65D777312217FA2D007DA04A /* UITableViewExchangeViewController.swift in Sources */,
 				65D777242217FA2D007DA04A /* SelfObservableViewController.swift in Sources */,
 				65D777252217FA2D007DA04A /* DriverViewController.swift in Sources */,
+				658ADD8B224CD644003F989B /* MVVMViewController.swift in Sources */,
 				65D7766F2217F8E1007DA04A /* ViewController.swift in Sources */,
 				65D777032217FA2D007DA04A /* ConnectViewController.swift in Sources */,
 				65D777342217FA2D007DA04A /* DifferentImageViewTableViewCell.swift in Sources */,
@@ -1095,10 +1161,12 @@
 				65D7766D2217F8E1007DA04A /* AppDelegate.swift in Sources */,
 				6528CDA5221A59A4004F10CD /* Response+ObjectMapper.swift in Sources */,
 				65D7771C2217FA2D007DA04A /* UITableViewFiltrationViewController.swift in Sources */,
+				658ADD5A224CC54E003F989B /* MbExtensionViewController.swift in Sources */,
 				65D777162217FA2D007DA04A /* WeakSelfViewController.swift in Sources */,
 				65D777282217FA2D007DA04A /* RxAlamofireBasicViewController.swift in Sources */,
 				65D777142217FA2D007DA04A /* EditTabViewController.swift in Sources */,
 				65D777042217FA2D007DA04A /* UIGestureRecognizerViewController.swift in Sources */,
+				658ADD90224CD90F003F989B /* Response+ObjectMapper.swift in Sources */,
 				65D7770A2217FA2D007DA04A /* ExtensionLabelViewController.swift in Sources */,
 				65D7772D2217FA2D007DA04A /* UIActivityIndicatorViewAndUIApplicationViewController.swift in Sources */,
 				65D777022217FA2D007DA04A /* MaterializeViewController.swift in Sources */,
