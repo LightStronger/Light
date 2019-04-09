@@ -8,7 +8,6 @@
 
 import Foundation
 import Moya
-import RxMoya
 
 class MVVMViewController: UIViewController {
 
