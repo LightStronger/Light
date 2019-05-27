@@ -66,7 +66,7 @@ class ObservableMVVMViewController: UIViewController {
             .subscribe (onNext: {[weak self] item in
                 // 显示资源信息(完整名称和描述信息)
                 self?.showAlert(title: item.fullName, message: item.description)
-            })
+            }).disposed(by: disposeBag)
     }
     
     // 显示信息

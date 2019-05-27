@@ -8,7 +8,7 @@
 
 import Foundation
 import Moya
-import RxMoya
+
 // 初始化GitHub请求的provider
 let GitHubProvider = MoyaProvider<GitHubAPI>()
 
@@ -22,7 +22,7 @@ public enum GitHubAPI {
 extension GitHubAPI: TargetType {
 
     // 服务器地址
-    public var baseURL:baseURL {
+    public var baseURL:URL {
         return URL(string: "https://api.github.com")!
     }
     
@@ -35,7 +35,7 @@ extension GitHubAPI: TargetType {
     }
     
     // 请求类型
-    public var method:Moya.method {
+    public var method:Moya.Method {
         return .get
     }
     
@@ -48,7 +48,7 @@ extension GitHubAPI: TargetType {
             params["q"] = query
             params["sort"] = "starts"
             params["order"] = "desc"
-        return .requestParameters(parameters:params,endcoding:URLEncoding.default)
+            return .requestParameters(parameters:params,encoding:URLEncoding.default)
         default:
             return .requestPlain
         }
